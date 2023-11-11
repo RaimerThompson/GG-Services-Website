@@ -5,7 +5,11 @@ ul li a{
 }
 
 ul li a:hover{
-  color: rgb(120, 183, 88);
+  color: rgb(29, 57, 15);
+}
+
+ul li a.active{
+  color: rgb(222, 151, 151);
 }
 
 .header__menu{
