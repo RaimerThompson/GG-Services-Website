@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/components/header.css">
+  <link rel="stylesheet" href="styles/components/contact.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/utilities.css">
+  <script src="https://kit.fontawesome.com/c339e0fb63.js" crossorigin="anonymous"></script>
+  <title>Contact</title>
+</head>
+<body>
+  <header class="header container">
+    <nav id="nav">
+      <ul class="header__menu-logo">
+        <li>
+          <a class="header__logo" href="index.html">G|G</a>
+        </li>
+      </ul>
+      <ul id="navbar" class="header__menu">
+        <li class="header__item"><a href="index.html">HOME</a></li>
+        <li class="header__item"><a href="#">ABOUT</a></li>
+        <li class="header__item"><a href="work.html">MY WORK</a></li>
+        <li class="header__item"><a href="#">SERVICES</a></li>
+        <li class="header__item"><a class="active" href="#">CONTACT</a></li>
+      </ul>
+      <!--<ul class="header__menu-right">
+         <div id="mobile">  
+          <div class="hamburger__menu-btn">
+            <button class="hamburger__btn" aria-controls="primary-navigation" aria-expanded="false">
+              <svg class="hamburger" viewBox="0 0 100 100" width="250">
+                <rect class="top line" 
+                width="80" height="7" 
+                x="10" y="15" rx="3.5">
+              </rect>
+                <rect class="middle line"
+                 width="80" height="7" 
+                 x="10" y="45" rx="3.5">
+                </rect>
+                <rect class="bottom line" 
+                width="80" height="7" 
+                x="10" y="75" rx="3.5">
+              </rect>
+              </svg>
+            </button>
+          </div>
+        </div> 
+      </ul> -->
+    </nav>
+  </header>
+
+  <section class="contact section">
+    <h2 class="contact__title">Contact Me</h2>
+    <div class="contact__mail">
+      <form action="" class="contact__form" id="contact-form">
+        <div class="contact__group">
+          <div class="contact__box">
+            <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+            <label for="name" class="contact__label">First Name</label>
+          </div>
+          <div class="contact__box">
+            <input type="text" name="user_lastname" class="contact__input" id="lastname" required placeholder="Last Name">
+            <label for="name" class="contact__label">Last Name</label>
+          </div>
+        </div>
+
+        <div class="contact__group">
+          <div class="contact__box">
+            <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email*">
+            <label for="email" class="contact__label">Email*</label>
+          </div>
+          <div class="contact__box">
+            <input type="text" name="user_subject" class="contact__input" id="subject" placeholder="Subject">
+            <label for="subject" class="contact__label">Subject</label>
+          </div>  
+        </div>
+
+          <div class="contact__box contact__area">
+            <textarea name="user_message" id="message"  class="contact__input" required placeholder="Message"></textarea>
+            <label for="message" class="contact__label">Message</label>
+          </div>   
+          
+          <p class="contact__message" id="contact-message"></p>
+
+          <button class="contact__button button btn">
+            SUBMIT
+          </button>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

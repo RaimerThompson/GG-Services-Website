@@ -1,15 +1,15 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  color: rgb(65, 65, 65);
+  color: rgb(70, 70, 70);
 }
 
 ul li a:hover{
-  color: rgb(29, 57, 15);
+  color: rgb(222, 150, 150);
 }
 
 ul li a.active{
-  color: rgb(222, 151, 151);
+  color: rgb(222, 150, 150);
 }
 
 .header__menu{
@@ -33,5 +33,6 @@ nav{
   right: 0;
   left:0;
   padding: .75rem 1rem;
-  background:rgb(255, 255, 255, .2);
+  background:rgb(255, 255, 255);
+  /* border-bottom: 2px solid black; */
 }

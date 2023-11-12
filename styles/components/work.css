@@ -2,11 +2,12 @@
   max-width: 1224px;
   width: 90%;
   margin: auto;
-  padding: 40px 0;
+  padding: 2.5rem 0;
 }
 
 .work__title{
   margin-bottom: 2rem;
+  color: rgb(70, 70, 70);
 }
 
 .work__gallery{
