@@ -5,11 +5,11 @@ ul li a{
 }
 
 ul li a:hover{
-  color: rgb(222, 150, 150);
+  color: rgb(210, 150, 150);
 }
 
 ul li a.active{
-  color: rgb(222, 150, 150);
+  color: rgb(210, 150, 150);
 }
 
 .header__menu{
@@ -34,5 +34,5 @@ nav{
   left:0;
   padding: .75rem 1rem;
   background:rgb(255, 255, 255);
-  /* border-bottom: 2px solid black; */
+  z-index: 10;
 }
