@@ -2,6 +2,8 @@ ul li a{
   text-decoration: none;
   list-style: none;
   color: rgb(70, 70, 70);
+  font-size: 13px;
+  letter-spacing: 1.25px;
 }
 
 ul li a:hover{
@@ -14,15 +16,52 @@ ul li a.active{
 
 .header__menu{
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   list-style: none;
   text-decoration: none;
-  font-size:var(--size-xs) ;
+
 }
 
 .header__menu-logo{
   display: flex;
   list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__logo:hover{
+  color: inherit;
+}
+
+.header__logo{
+  font-size: 1.5rem;
+}
+
+.logo__letter::after{
+  content: '';
+  border: 1px solid rgb(121, 121, 121);
+  border-right: 0;
+  position: relative;
+  left: -.1325px;
+}
+
+.logo__letter{
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+
+  
+}
+
+.logo__events{
+  font-size: 11px;
+  text-align: center;
+  width: 200px;
+  align-items: center;
+  position: relative;
+  top: -.5rem;
 }
 
 nav{
@@ -32,7 +71,27 @@ nav{
   top: 0;
   right: 0;
   left:0;
-  padding: .75rem 1rem;
+  padding: .75rem 7rem;
   background:rgb(255, 255, 255);
   z-index: 10;
 }
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+

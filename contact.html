@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/components/header.css">
   <link rel="stylesheet" href="styles/components/contact.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -13,17 +16,18 @@
 <body>
   <header class="header container">
     <nav id="nav">
-      <ul class="header__menu-logo">
-        <li>
-          <a class="header__logo" href="index.html">G|G</a>
-        </li>
+      <ul id="navbar" class="header__menu nav__left">
+        <li class="header__item"><a href="#">OUR STORY</a></li>
+        <li class="header__item"><a href="services.html">SERVICES</a></li>
       </ul>
-      <ul id="navbar" class="header__menu">
-        <li class="header__item"><a href="index.html">HOME</a></li>
-        <li class="header__item"><a href="#">ABOUT</a></li>
-        <li class="header__item"><a href="work.html">MY WORK</a></li>
-        <li class="header__item"><a href="#">SERVICES</a></li>
-        <li class="header__item"><a class="active" href="#">CONTACT</a></li>
+        <ul class="header__menu-logo nav__center">
+          <li>
+            <a class="header__logo" href="index.html">G<span class="logo__letter">G</span> <br> <span class="logo__events">Events by Grace</span></a>
+          </li>
+        </ul>
+        <ul class="header__menu nav__right">
+          <li class="header__item"><a href="work.html">PORTFOLIO</a></li>
+          <li class="header__item"><a class="active" href="contact.html">CONTACT</a></li>
       </ul>
       <!--<ul class="header__menu-right">
          <div id="mobile">  
@@ -51,7 +55,12 @@
   </header>
 
   <section class="contact section">
-    <h2 class="contact__title">Contact Me</h2>
+    <h2 class="contact__title">Contact Us</h2>
+   <div class="contact__container">
+    <div class="contact__description">
+      <p>Thank you for your interest. Let's design and plan something beautiful and memorable together!</p>
+      <p>We'd love to hear from you.</p>
+    </div>
     <div class="contact__mail">
       <form action="" class="contact__form" id="contact-form">
         <div class="contact__group">
@@ -88,6 +97,7 @@
           </button>
       </form>
     </div>
+   </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="js/main.js"></script>
