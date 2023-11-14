@@ -2,26 +2,54 @@
   max-width: 1224px;
   width: 90%;
   margin: auto;
-  padding: 2.5rem 0;
+  padding: 4rem 0;
   font-family: inherit;
 }
 
 .contact__title{
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   color: rgb(70, 70, 70);
+  text-align: center;
 }
 
 .contact__container{
   display: flex;
+  gap: 2rem;
 }
 
 .contact__description{
-  flex: .25;
-  border: 1px solid black;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  height: 45%;
+  flex: .5;
+  background-image: url(/images/2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 2rem;
+  /* isolation: isolate; */
+}
+
+.contact__description::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  /* background-color:rgb(166, 97, 97); */
+  opacity: .2;
+
+}
+
+.contact__description p{
+  margin-bottom: 1.5rem;
+  font-size: var(--size-sm);
+}
+
+.contact__shadow{
+  position: absolute;
+  left: -3rem;
+  bottom: -4rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(163, 149, 140, .2);
+  z-index: -4;
 }
 
 .contact__mail{
@@ -62,7 +90,7 @@
   position: absolute;
   width: 100%;
   height: 50%;
-  border-bottom: 1.25px solid rgb(210, 150, 150);
+  border-bottom: 1.25px solid rgb(210, 150, 150, .4);
   color: rgb(0, 0, 0);
   padding: 1rem .5rem;
   transition: border .2s, background-color .2s;
@@ -111,7 +139,7 @@
   left: 50%;
   height: 100%;
   width: 0;
-  border: 1px solid rgb(210, 150, 150);
+  border: 1px solid rgb(210, 150, 150, .4);
   border-left: 0;
   border-right: 0;
   border-radius: 4px;
@@ -123,12 +151,12 @@
   height: 0;
   width: 100%;
   border-radius: 4px;
-  background: rgb(210, 150, 150);
+  background: rgb(210, 150, 150, rgb(210, 150, 150, .4));
 }
 
 .contact__button:hover:before {
   left: 0;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .contact__button:hover:after {
@@ -165,7 +193,7 @@
 
 .btn:hover {
   color: white;
-  transition-delay: .3s;
+  transition-delay: .15s;
   font-weight: bold;
 }
 
@@ -174,8 +202,8 @@
 }
 
 .btn:hover:after {
-  background: rgb(210, 150, 150);
-  transition-delay: .27s;
+  background: rgb(210, 150, 150, .4);
+  transition-delay: .15s;
   border-radius: 4px;
 }
 
