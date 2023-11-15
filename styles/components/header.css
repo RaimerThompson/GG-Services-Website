@@ -1,25 +1,35 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  color: #c49187e6;
-  font-size: 13px;
+  color: rgba(56, 55, 55, .9);
+  font-size: 16px;
   letter-spacing: 1.25px;
 }
 
 ul li a:hover{
 opacity: .5;
+color: aliceblue;
 }
 
 ul li a:active{
-  opacity: .8;
+  opacity: .9;
 }
+
+ul li a.active{
+  color: white;
+}
+
 
 .header__menu{
   display: flex;
+  right: 0;
+  top: 0;
+  flex-direction: column; 
   gap: 2rem;
   list-style: none;
   text-decoration: none;
   position: relative;
+  background-color: bisque;
 }
 
 .header__menu-logo{
@@ -42,43 +52,90 @@ ul li a:active{
   color: rgb(100, 100, 100);
 }
 
-.logo__letter::after{
-  content: '';
-  border: 1px solid rgb(121, 121, 121);
-  border-right: 0;
-  position: relative;
-  /* left: -.1325px; */
-  left: -1.31rem;
-}
-
-.logo__letter{
-  display: inline-block;
-
-  
-}
-
-.logo__events{
-  font-size: 11px;
-  text-align: center;
-  width: 200px;
-  align-items: center;
-  position: relative;
-  top: -.5rem;
-}
-
 nav{
   display: flex;
   justify-content: space-between;
   position: fixed; 
+  align-items: center;
   top: 0;
   right: 0;
   left:0;
   z-index: 10;
   padding: 1rem 2rem;
-  /* background-color: rgba(196, 147, 135, 0.9) */
+  /* background-color: rgba(142, 196, 135, 0.1); */
 }
 
 
+.hamburger__btn{
+  width: 30px;
+  fill: rgb(85, 85, 85);
+  border-radius: 2px;
+  border: none;
+  position: relative;
+  top: 4px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.hamburger__btn.close{
+  top: 0;
+  left: 2px;
+  fill: white;
+  
+  /* transition: 3s; */
+}
+
+.middle{
+  opacity: 0;
+}
+
+.hamburger__btn.close .top{
+  transform: rotate(45deg) translate(16px, -10px);
+}
+
+.hamburger__btn.close .middle{
+  opacity: 0;
+}
+
+.hamburger__btn.close .bottom{
+  transform: rotate(-45deg) translate(-74px, 10px);
+}
+
+#mobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  
+}
+
+
+#navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  list-style: none;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  right: -270px;
+  height: 100vh;
+  width: 270px;
+  background-color: white;
+  padding: 80px 0 0 20px;
+  transition: .5s ease-in;
+}
+
+#navbar.active{
+  right: 0;
+  transition: .5s ease-in-out;
+  background-color: rgb(196, 146, 135);
+}
 
 /* xs */
 /* @media (min-width: 475px) {} */
