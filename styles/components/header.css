@@ -11,9 +11,9 @@ opacity: .5;
 color: aliceblue;
 }
 
-ul li a:active{
+/* ul li a:active{
   opacity: .9;
-}
+} */
 
 ul li a.active{
   color: white;
@@ -92,7 +92,7 @@ nav{
 }
 
 .hamburger__btn.close .top{
-  transform: rotate(45deg) translate(16px, -10px);
+  transform: rotate(45deg) translate(10px, -14px);
 }
 
 .hamburger__btn.close .middle{
@@ -100,7 +100,7 @@ nav{
 }
 
 .hamburger__btn.close .bottom{
-  transform: rotate(-45deg) translate(-74px, 10px);
+  transform: rotate(-45deg) translate(-75px, 14px);
 }
 
 #mobile{
