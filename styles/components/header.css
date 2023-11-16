@@ -1,7 +1,8 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  color: rgba(56, 55, 55, .9);
+  /* color: rgba(56, 55, 55, .9); */
+  color: rgb(95, 45, 20, .8);
   font-size: 16px;
   letter-spacing: 1.25px;
 }
@@ -29,7 +30,6 @@ ul li a.active{
   list-style: none;
   text-decoration: none;
   position: relative;
-  background-color: bisque;
 }
 
 .header__menu-logo{
@@ -40,7 +40,7 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Custom;
 }
 
 .header__logo:hover{
@@ -48,8 +48,18 @@ ul li a.active{
 }
 
 .header__logo{
-  font-size: 1.5rem;
-  color: rgb(100, 100, 100);
+  /* font-size: 1.5rem; */
+  font-size: 1.7em;
+  font-weight: 600;
+  color: rgb(95, 45, 20);
+  letter-spacing: 9px;
+}
+
+.header__logo::after{
+  content: '';
+  border: 1px solid rgb(95, 45, 20, .3);
+  left: -2.2rem;
+  position: relative;
 }
 
 nav{
@@ -68,7 +78,7 @@ nav{
 
 .hamburger__btn{
   width: 30px;
-  fill: rgb(85, 85, 85);
+  fill: rgb(95, 45, 20);
   border-radius: 2px;
   border: none;
   position: relative;
@@ -83,7 +93,6 @@ nav{
   top: 0;
   left: 2px;
   fill: white;
-  
   /* transition: 3s; */
 }
 
@@ -134,7 +143,7 @@ nav{
 #navbar.active{
   right: 0;
   transition: .5s ease-in-out;
-  background-color: rgb(196, 146, 135);
+  background-color: rgb(240, 200, 180);
 }
 
 /* xs */
