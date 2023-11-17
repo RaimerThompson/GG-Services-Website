@@ -2,6 +2,10 @@
   font-family: Custom;
   src: url(/fonts/Canonatia.ttf);
 }
+@font-face {
+  font-family: Balerno;
+  src: url(/fonts/Balerno-Rg.ttf);
+}
 
 * {
   margin: 0;
