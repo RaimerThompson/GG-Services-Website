@@ -16,7 +16,7 @@
 }
 
 .services__sub-title{
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   text-align: center;
   font-weight: 100;
 }
@@ -39,12 +39,26 @@ h2{
   letter-spacing: 8px;
 }
 
+h4{
+  margin-bottom: 1rem;
+  opacity: .5;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.r1 p,
+.r4 p,
+.r5 p{
+  font-family: Balerno;
+}
+
 .row1,
 .row2,
 .row3{
   display: flex;
-  margin-bottom: 4rem;
-  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 8rem;
+  justify-content: space-around;
 }
 
 .r2,
@@ -57,27 +71,32 @@ position: relative;
 
 .services__shadow{
   position: absolute;
-  left: -7rem;
+  left: 4.5rem;  
   bottom: -2rem;
   width: 100%;
-  height: 100%;
-  background-color: rgba(241, 132, 81, 0.2);
+  /* Desktop */
+  height: 22.8rem; 
+  /* Mobile  */
+  /* height: 20rem;  */
+  background-color: rgba(249, 225, 190, 0.75);
+
   z-index: -4;
   border-radius: 2px;
 }
 
 .services__shadow2{
   position: absolute;
-  left: 7rem;
+  left: -5rem;
   bottom: -2rem;
   width: 100%;
   /* Desktop */
-  /* height: 24.8rem;  */
-  /* Mobile  */
   height: 22.8rem; 
+  /* Mobile  */
+  /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
   /* background-color: rgba(240, 246, 236, 0.8); */
-  background-color: rgba(249, 225, 190, 0.75);
+  background-color: rgba(241, 132, 81, 0.2);
+
   z-index: -4;
   border-radius:2px;
 }
@@ -86,67 +105,78 @@ position: relative;
 
 .services__shadow3{
   position: absolute;
-  left: -7rem;
-  bottom: 2rem;
+  left: 4.5rem;
+  bottom: -2rem;
   width:100%;
-  height: 100%;
+  /* Desktop */
+  height: 22.8rem; 
+  /* Mobile  */
+  /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
-  background-color: rgba(240, 246, 236, .5);
+  background-color: rgb(232, 245, 222, .5);
   z-index: -4;
   border-radius: 2px;
 }
 
 .r1{
   /* background-color: rgb(247, 236, 231, .5); */
-  width: 450px;
+  width: 240px;
   height: 300px;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
+  flex-direction: column;
+  /* text-align: center; */
   justify-content: center;
-  align-items: center ;
-  /* border: 2px dotted red; */
+  border: 1px solid rgba(241, 132, 81, 0.2);
+  
 }
 
 .r4{
   /* background-color: rgba(223, 236, 238, 0.5); */
-  width: 450px;
+  width: 240px;
   height: 300px;
-  /* padding: 2rem; */
-  /* display: flex;  */
-  /* justify-content: center; */
-  text-align: left;
+  padding: 1.5rem;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
   /* align-items: center; */
-  border: 2px dotted red;
+  border: 1px solid rgba(241, 132, 81, 0.2);
 
 } 
 
 .r5{
   /* background-color: rgba(230, 230, 230, 0.5); */
-  width: 450px;
+  width: 240px;
   height: 300px;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /* border: 2px dotted red; */
+  /* align-items: center; */
+  /* text-align: left; */
+  border: 1px solid rgba(241, 132, 81, 0.2);
+
 }
 
-.r1 h2{
+.r2 h2{
   transform-origin: top right;
-  transform: rotate(-90deg) translateX(37%);
+  transform: rotate(-90deg) translateX(48.5%) translateY(-200%);
   top: 50%;
   bottom: 0;
   right: 0;
-  color: rgb(198, 149, 126);
+  color: rgb(222, 133, 92);
   opacity: .3;
   font-weight: 700;
   letter-spacing: 1.15rem;
+  position: absolute;
   /* border: 2px dotted blue; */
+  height: fit-content;
 }
 
-.r4 h2{
+.r3 h2{
   transform-origin: top left;
-  transform: rotate(-90deg) translateX(-115%);
+  transform: rotate(-90deg) translateX(-145%) translateY(125%);
   top: 50%;
   bottom: 0;
   left: 0;
@@ -155,13 +185,13 @@ position: relative;
   font-weight: 700;
   letter-spacing: 2rem;
   /* position: relative; */
-  border: 3px dotted blue;
+  /* border: 3px dotted blue; */
   width: 10rem;
 }
 
-.r5 h2{
+.r6 h2{
   transform-origin: top right;
-  transform: rotate(-90deg) translateX(62%);
+  transform: rotate(-90deg) translateX(50%) translateY(-200%);
   top: 50%;
   bottom: 0;
   right: 0;
@@ -170,7 +200,9 @@ position: relative;
   font-weight: 900;
   letter-spacing: 1.15rem;
   font-weight: 700;
+  position: absolute;
   /* border: 2px dotted blue; */
+  height: fit-content;
 }
 
 .services__image{
