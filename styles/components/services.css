@@ -50,7 +50,7 @@ h2{
 .r2,
 .r3,
 .r6{
-width: 600px;
+width: 440px;
 position: relative;
 }
 
@@ -98,79 +98,79 @@ position: relative;
 
 .r1{
   /* background-color: rgb(247, 236, 231, .5); */
-  width: 600px;
+  width: 450px;
   height: 300px;
   padding: 2rem;
-  text-align: center; 
+  display: flex;
   justify-content: center;
-  align-items: center; 
-  /* margin: 3rem auto; */
-  border: 2px dotted red;
-  position: relative;
+  align-items: center ;
+  /* border: 2px dotted red; */
 }
 
 .r4{
   /* background-color: rgba(223, 236, 238, 0.5); */
-  width: 600px;
+  width: 450px;
   height: 300px;
-  padding: 2rem;
-  text-align: center; 
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  position: relative;
-  /* margin: 3rem auto; */
+  /* padding: 2rem; */
+  /* display: flex;  */
+  /* justify-content: center; */
+  text-align: left;
+  /* align-items: center; */
   border: 2px dotted red;
+
 } 
 
 .r5{
   /* background-color: rgba(230, 230, 230, 0.5); */
-  width: 600px;
+  width: 450px;
   height: 300px;
   padding: 2rem;
-  text-align: center; 
+  display: flex;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
-  position: relative;
-  /* margin: 3rem auto; */
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
 
 .r1 h2{
-  top: 5rem;
+  transform-origin: top right;
+  transform: rotate(-90deg) translateX(37%);
+  top: 50%;
+  bottom: 0;
+  right: 0;
   color: rgb(198, 149, 126);
-  opacity: .2;
-  font-weight: 300;
-  letter-spacing: 1.5rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  vertical-align: middle;
+  opacity: .3;
+  font-weight: 700;
+  letter-spacing: 1.15rem;
+  /* border: 2px dotted blue; */
 }
 
 .r4 h2{
-  display: flex;
-  position: relative;
-  color: rgba(249, 225, 190);
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-115%);
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  color: rgb(245, 208, 152);
   opacity: 1;
   font-weight: 700;
-  letter-spacing: 4rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  letter-spacing: 2rem;
+  /* position: relative; */
+  border: 3px dotted blue;
+  width: 10rem;
 }
 
 .r5 h2{
-  top: 5rem;
+  transform-origin: top right;
+  transform: rotate(-90deg) translateX(62%);
+  top: 50%;
+  bottom: 0;
+  right: 0;
   color: rgb(75, 148, 33);
-  opacity: .1;
+  opacity: .2;
+  font-weight: 900;
+  letter-spacing: 1.15rem;
   font-weight: 700;
-  letter-spacing: 1.5rem;
-  top: 5rem;
-  font-weight: 700;
-  letter-spacing: 16px;
+  /* border: 2px dotted blue; */
 }
 
 .services__image{
