@@ -75,10 +75,13 @@ position: relative;
   bottom: -2rem;
   width: 100%;
   /* Desktop */
-  height: 22.8rem; 
+  height: 22.5rem; 
   /* Mobile  */
   /* height: 20rem;  */
-  background-color: rgba(249, 225, 190, 0.75);
+
+  background-color: rgb(232, 245, 222, .5);
+
+  /* background-color: rgba(249, 225, 190, 0.75); */
 
   z-index: -4;
   border-radius: 2px;
@@ -90,7 +93,7 @@ position: relative;
   bottom: -2rem;
   width: 100%;
   /* Desktop */
-  height: 22.8rem; 
+  height: 22.5rem; 
   /* Mobile  */
   /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
@@ -109,11 +112,13 @@ position: relative;
   bottom: -2rem;
   width:100%;
   /* Desktop */
-  height: 22.8rem; 
+  height: 22.5rem; 
   /* Mobile  */
   /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
-  background-color: rgb(232, 245, 222, .5);
+  background-color: rgba(249, 225, 190, 0.75);
+
+  /* background-color: rgb(232, 245, 222, .5); */
   z-index: -4;
   border-radius: 2px;
 }
@@ -165,8 +170,10 @@ position: relative;
   top: 50%;
   bottom: 0;
   right: 0;
-  color: rgb(222, 133, 92);
-  opacity: .3;
+  /* color: rgb(222, 133, 92);
+  opacity: .3; */
+  color: rgb(75, 148, 33);
+  opacity: .21;
   font-weight: 700;
   letter-spacing: 1.15rem;
   position: absolute;
@@ -176,11 +183,11 @@ position: relative;
 
 .r3 h2{
   transform-origin: top left;
-  transform: rotate(-90deg) translateX(-145%) translateY(125%);
+  transform: rotate(-90deg) translateX(-150%) translateY(120%);
   top: 50%;
   bottom: 0;
   left: 0;
-  color: rgb(245, 208, 152);
+  color: rgb(240, 200, 140);
   opacity: 1;
   font-weight: 700;
   letter-spacing: 2rem;
@@ -195,8 +202,10 @@ position: relative;
   top: 50%;
   bottom: 0;
   right: 0;
-  color: rgb(75, 148, 33);
-  opacity: .2;
+  color: rgb(222, 133, 92);
+  opacity: .3;
+  /* color: rgb(75, 148, 33);
+  opacity: .2; */
   font-weight: 900;
   letter-spacing: 1.15rem;
   font-weight: 700;
@@ -211,10 +220,58 @@ position: relative;
   height: 100%;
 }
 
-
-
 .services__image2{
   border-radius: 2px;
   width: 100%;
   height: 100%;
+}
+
+.banner{
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(247, 215, 198);
+  height: 100%;
+  max-width: 5000em;
+}
+
+.banner__container{
+  position: relative;
+  display: flex;
+  padding: 5rem 3rem 5rem 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner p{
+  color: rgb(95, 45, 20, .7);
+  text-align: left;
+  line-height: 1.2;
+  font-size: 2.2rem;
+}
+
+.banner__contact-button{
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  left: 10rem;
+  top: 2rem;
+}
+
+.banner__contact-button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-family: Balerno;
+  letter-spacing: 5px;
+  font-weight: 700;
+  /* padding-bottom: 1rem; */
+}
+
+.banner__span{
+  position: relative;
+  bottom: 1px;
+  left: 6px;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
