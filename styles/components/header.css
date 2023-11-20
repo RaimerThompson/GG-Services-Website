@@ -8,8 +8,8 @@ ul li a{
 }
 
 ul li a:hover{
-opacity: .5;
-color: aliceblue;
+
+color: rgb(254, 254, 254);
 }
 
 /* ul li a:active{

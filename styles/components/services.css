@@ -2,17 +2,44 @@
   max-width: 1224px;
   width: 80%;
   margin: auto;
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
+}
+
+.services__banner{
+  margin: auto;
+  padding: 5rem 0;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.services__banner::before {    
+  content: "";
+  background-image: url(/images/17.jpg);
+  background-size: cover;
+  background-position: bottom left;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.65;
 }
 
 .services__title{
   margin-bottom: 2rem;
-  color: rgb(95, 45, 20, .8);
+  /* color: rgb(95, 45, 20, .8); */
+  color: white;
   text-align: center;
   font-family: Custom;
-  font-size: 6rem;
-  font-weight: 100;
+  font-size: 12rem;
+  font-weight: 500;
   letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
 }
 
 .services__sub-title{
@@ -23,15 +50,19 @@
 
 .services__sub-text{
   font-family: Balerno;
-  font-size: 1.65rem;
-  margin-bottom: .8rem;
+  font-size: 3.75rem;
+  margin-bottom: 2rem;
   font-weight: 100;
   opacity: .5;
+  /* color: aquamarine; */
+  letter-spacing: 16px;
+  text-transform: uppercase;
 }
 
-/* .services__sub-desscription{
-  font-weight: 600;
-} */
+.services__sub-desscription{
+  font-size: 1.3rem;
+  opacity: .45;
+} 
 
 h2{
   font-family: Balerno;
@@ -61,10 +92,14 @@ h4{
   justify-content: space-around;
 }
 
+.row3{
+  margin-bottom: 4rem;
+}
+
 .r2,
 .r3,
 .r6{
-width: 440px;
+width: 100%;
 position: relative;
 }
 
@@ -79,10 +114,11 @@ position: relative;
   /* Mobile  */
   /* height: 20rem;  */
 
-  background-color: rgb(232, 245, 222, .5);
+  /* background-color: rgb(232, 245, 222, .5); */
+  /* background-color: rgba(115, 135, 99, 0.7); */
 
   /* background-color: rgba(249, 225, 190, 0.75); */
-
+  /* border: 1px solid rgba(241, 132, 81, 0.3); */
   z-index: -4;
   border-radius: 2px;
 }
@@ -98,7 +134,12 @@ position: relative;
   /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
   /* background-color: rgba(240, 246, 236, 0.8); */
-  background-color: rgba(241, 132, 81, 0.2);
+  /* background-color: rgb(168, 62, 83, .5); */
+
+  /* background-color: rgba(241, 132, 81, 0.2); */
+  /* background-color: rgba(241, 132, 81, 0.2); */
+  /* border: 1px solid rgba(241, 132, 81, 0.3); */
+
 
   z-index: -4;
   border-radius:2px;
@@ -116,9 +157,13 @@ position: relative;
   /* Mobile  */
   /* height: 20rem;  */
   /* background-color: rgba(255, 30, 0, 0.2); */
-  background-color: rgba(249, 225, 190, 0.75);
+  /* background-color: rgb(168, 62, 83, .5); */
 
   /* background-color: rgb(232, 245, 222, .5); */
+  
+  /* background-color: rgba(241, 132, 81, 0.2); */
+  /* border: 1px solid rgba(241, 132, 81, 0.3); */
+  
   z-index: -4;
   border-radius: 2px;
 }
@@ -132,8 +177,12 @@ position: relative;
   flex-direction: column;
   /* text-align: center; */
   justify-content: center;
-  border: 1px solid rgba(241, 132, 81, 0.2);
-  
+  /* border: 1px solid rgba(241, 132, 81, 0.2); */
+  background-color: white;
+  border: 2px dotted red;
+  position: relative;
+  left: 5rem;
+  z-index: 10;
 }
 
 .r4{
@@ -146,7 +195,8 @@ position: relative;
   justify-content: center;
   /* text-align: center; */
   /* align-items: center; */
-  border: 1px solid rgba(241, 132, 81, 0.2);
+  /* border: 1px solid rgba(241, 132, 81, 0.2); */
+  border: 2px dotted red;
 
 } 
 
@@ -160,20 +210,23 @@ position: relative;
   justify-content: center;
   /* align-items: center; */
   /* text-align: left; */
-  border: 1px solid rgba(241, 132, 81, 0.2);
+  /* border: 1px solid rgba(241, 132, 81, 0.2); */
+  border: 2px dotted red;
 
 }
 
 .r2 h2{
   transform-origin: top right;
-  transform: rotate(-90deg) translateX(48.5%) translateY(-200%);
+  transform: rotate(-90deg) translateX(52%) translateY(-200%);
   top: 50%;
   bottom: 0;
   right: 0;
   /* color: rgb(222, 133, 92);
   opacity: .3; */
-  color: rgb(75, 148, 33);
-  opacity: .21;
+  /* color: rgb(75, 148, 33);
+  opacity: .7; */
+  color: rgb(222, 133, 92);
+  opacity: .5;
   font-weight: 700;
   letter-spacing: 1.15rem;
   position: absolute;
@@ -198,12 +251,12 @@ position: relative;
 
 .r6 h2{
   transform-origin: top right;
-  transform: rotate(-90deg) translateX(50%) translateY(-200%);
+  transform: rotate(-90deg) translateX(52%) translateY(-200%);
   top: 50%;
   bottom: 0;
   right: 0;
   color: rgb(222, 133, 92);
-  opacity: .3;
+  opacity: .5;
   /* color: rgb(75, 148, 33);
   opacity: .2; */
   font-weight: 900;
