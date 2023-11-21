@@ -6,6 +6,10 @@
   font-family: Balerno;
   src: url(/fonts/Balerno-Rg.ttf);
 }
+@font-face {
+  font-family: Camron;
+  src: url(/fonts/CammronDemo.ttf);
+}
 
 * {
   margin: 0;

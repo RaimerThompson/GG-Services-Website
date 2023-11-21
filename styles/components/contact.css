@@ -30,8 +30,10 @@
   padding: 2rem;
   border-radius: 5px;
   top: -1rem;
-  color: rgb(95, 45, 20, .7);
+  /* color: rgb(95, 45, 20, .7); */
   /* isolation: isolate; */
+  color: white;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .contact__description::after{
@@ -52,10 +54,12 @@
 .contact__shadow{
   position: absolute;
   left: -3.5rem;
-  bottom: -4rem;
+  bottom: -3rem;
   width: 100%;
   height: 100%;
-  background-color: rgb(163, 149, 140, .2);
+  /* background-color: rgb(163, 149, 140, .2); */
+  background-color: rgb(240, 200, 180, .4);
+
   z-index: -4;
   border-radius: 5px;
 }
@@ -148,15 +152,16 @@
 } */
 
 .contact__button{
-  color: white;
-  border-color: #cbb9a8;
+  color: rgb(239, 169, 135);
+
+  border: 1px solid rgb(245, 191, 164);
   border-radius: 2px;
   letter-spacing: 5px;
   padding: 0.5em .7em 0.5em 1em;
   font-size: 14px;
   font-weight: 100;
-  background-color: rgb(240, 200, 180);
-  border: 2px solid transparent;
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid transparent; */
   display: flex;
   margin: 0 auto ;
   cursor: pointer;
@@ -167,6 +172,8 @@
 .contact__button:hover{
   cursor: pointer;
   opacity: .9;
+  background-color: rgb(240, 200, 180);
+  color: white;
 } 
 
 
