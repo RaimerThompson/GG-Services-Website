@@ -72,13 +72,110 @@
         <!-- <div class="contact__line"></div> -->
         <div class="contact__type">
           <ul>
-            <li> <a href="#">WEDDING</a></li>
-            <li><a href="#">PRIVATE</a></li>
-            <li><a href="#">OTHER</a></li>
+            <li class="tab__links active__link" onclick="opentab('wedding')"> WEDDING</li>
+            <li class="tab__links" onclick="opentab('private')">PRIVATE</li>
+            <li class="tab__links" onclick="opentab('other')">OTHER</li>
           </ul>
         </div>
       </div>
-      <form action="" class="contact__form" id="contact-form">
+
+
+      <div class="tab__contents active__tab" id="wedding">
+        <form action="" class="contact__form" id="contact-form">
+          <div class="contact__group">
+            <div class="contact__box">
+              <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+              <label for="name" class="contact__label">Name</label>
+            </div>
+          
+          </div>
+  
+            <div class="contact__box">
+              <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email*">
+              <label for="email" class="contact__label">Email*</label>
+            </div>
+            
+        <div class="contact__group"> 
+
+          <div class="contact__box">
+            <input type="text" name="user_weddingdate" class="contact__input" id="weddingdate" required placeholder="Wedding Date">
+            <label for="weddingdate" class="contact__label">Wedding Date</label>
+          </div>
+
+          <div class="contact__box">
+            <input type="text" name="user_count" class="contact__input" id="count" required placeholder="Guest Count">
+            <label for="count" class="contact__label">Guest Count</label>
+          </div>
+        </div>
+        <div class="contact__group"> 
+          <div class="contact__box">
+            <input type="text" name="user_weddinglocation" class="contact__input" id="weddinglocation" placeholder="Wedding Location">
+            <label for="weddinglocation" class="contact__label">Wedding Location</label>
+          </div>
+
+          <div class="contact__box">
+            <input type="text" name="user_budget" class="contact__input" id="budget" required placeholder="Budget">
+            <label for="budget" class="contact__label">Budget</label>
+          </div>
+        </div>
+
+       
+
+            <div class="contact__box contact__area">
+              <textarea name="user_message" id="message"  class="contact__input" placeholder="Message"></textarea>
+              <label for="message" class="contact__label">Leave a message... </label>
+            </div>   
+            
+            <p class="contact__message" id="contact-message"></p>
+  
+              <button class="contact__button button btn">
+                Send
+              </button>   
+      </form>
+    </div>
+
+    <div class="tab__contents" id="private">
+      <form action="" class="contact__form" id="contact-form2">
+        <div class="contact__group">
+          <div class="contact__box">
+            <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+            <label for="name" class="contact__label">Name</label>
+          </div>
+        </div>
+        
+          <div class="contact__box">
+            <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email*">
+            <label for="email" class="contact__label">Email*</label>        
+        </div>
+      <div class="contact__group">
+        <div class="contact__box">
+          <input type="text" name="user_location" class="contact__input" id="location" placeholder="Event Location">
+          <label for="location" class="contact__label">Event Location</label>
+        </div>
+
+        <div class="contact__box">
+          <input type="text" name="user_count" class="contact__input" id="count" required placeholder="Guest Count">
+          <label for="count" class="contact__label">Guest Count</label>
+        </div>
+      </div>
+
+          <div class="contact__box contact__area">
+            <textarea name="user_message" id="message"  class="contact__input" placeholder="Message"></textarea>
+            <label for="message" class="contact__label">Leave a message... </label>
+          </div>   
+          
+          <p class="contact__message" id="contact-message2"></p>
+
+            <button class="contact__button button btn">
+              Send
+            </button>
+        
+      </form>
+    </div>
+
+    <div class="tab__contents" id="other">
+       
+      <form action="" class="contact__form" id="contact-form3">
         <div class="contact__group">
           <div class="contact__box">
             <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
@@ -96,6 +193,7 @@
             <label for="email" class="contact__label">Email*</label>
           </div>
           
+          
         </div>
         <div class="contact__box">
           <input type="text" name="user_subject" class="contact__input" id="subject" placeholder="Subject">
@@ -106,7 +204,7 @@
             <label for="message" class="contact__label">Leave a message... </label>
           </div>   
           
-          <p class="contact__message" id="contact-message"></p>
+          <p class="contact__message" id="contact-message3"></p>
 
             <button class="contact__button button btn">
               Send
@@ -114,11 +212,17 @@
         
       </form>
     </div>
+    
+    </div>
    </div>
   </section>
   <section style="background-color: rgb(235, 235, 235); width: 100%;" class="footer section">
     footer
   </section>
+
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/main.js"></script>

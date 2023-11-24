@@ -44,5 +44,61 @@ const sendEmail = (e) =>{
   })
 }
 
-contactForm.addEventListener('submit', sendEmail)
+contactForm.addEventListener('submit', sendEmail);
+
+
+const contactForm2 = document.getElementById('contact-form2'),
+      contactMessage2 = document.getElementById('contact-message2')
+
+const sendEmail2 = (e) =>{
+  e.preventDefault()
+
+   // serviceID - templateID - #form - publicKey 
+  emailjs.sendForm('service_kmv559q', 'template_b7m1qws', '#contact-form2', 'Vs4d0AsUtYr3Zbvh_')
+    .then(() =>{
+  //show sent message 
+    contactMessage2.textContent = 'Thanks for submitting!✅'
+
+  //remove message after 2 seconds
+  setTimeout(() => {
+    contactMessage2.textContent = ''
+  }, 2000);
+
+  //clear input fields
+  contactForm2.reset()
+  }, () =>{
+    //show error message
+    contactMessage2.textContent = 'Sorry, message was not recieved ❌'
+  })
+}
+
+contactForm2.addEventListener('submit', sendEmail2);
+
+
+const contactForm3 = document.getElementById('contact-form3'),
+      contactMessage3 = document.getElementById('contact-message3')
+
+const sendEmail3 = (e) =>{
+  e.preventDefault()
+
+   // serviceID - templateID - #form - publicKey 
+  emailjs.sendForm('service_kmv559q', 'template_b7m1qws', '#contact-form3', 'Vs4d0AsUtYr3Zbvh_')
+    .then(() =>{
+  //show sent message 
+    contactMessage3.textContent = 'Thanks for submitting!✅'
+
+  //remove message after 2 seconds
+  setTimeout(() => {
+    contactMessage3.textContent = ''
+  }, 2000);
+
+  //clear input fields
+  contactForm3.reset()
+  }, () =>{
+    //show error message
+    contactMessage3.textContent = 'Sorry, message was not recieved ❌'
+  })
+}
+
+contactForm3.addEventListener('submit', sendEmail3)
 
