@@ -1,6 +1,6 @@
 .contact{
   max-width: 1224px;
-  width: 80%;
+  width: 905;
   margin: auto;
   padding: 4rem 0;
 }
@@ -85,18 +85,21 @@
 
 .contact__shadow{
   position: relative;
-  left: -15rem;
-  bottom: 12.5rem;
-  width: 220px;
-  height: 440px;
+  /* left: -15rem;
+  bottom: 12.5rem; */
+  bottom: 1rem;
+  left: 0rem;
+
+  width: 420px;
+  height: 480px;
   /* background-color: rgb(163, 149, 140, .2); */
   background-color: rgb(240, 200, 180, .4);
   /* display: none; */
   background: url(/images/111.jpg);
-  background-position: 50%;
+  background-position: bottom;
   background-size: cover;
   z-index: -2;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .contact__sub-title{
@@ -137,7 +140,7 @@
 
 .contact__type ul li{
   list-style: none;
-  font-size: 8px;
+  font-size: 7px;
   font-family: 'Libre Baskerville', serif;
   letter-spacing: 2px;
   opacity: .8;
@@ -151,10 +154,12 @@
 
 .tab__contents{
   display: none;
+
 }
 
 .tab__contents.active__tab{
   display: block;
+ 
 }
 
 
