@@ -5,6 +5,8 @@ ul li a{
   color: rgb(95, 45, 20, .8);
   font-size: 16px;
   letter-spacing: 1.25px;
+
+  transition: color .4s ease-in-out;
 }
 
 ul li a:hover{
@@ -19,7 +21,6 @@ color: rgb(254, 254, 254);
 ul li a.active{
   color: white;
 }
-
 
 .header__menu{
   display: flex;
@@ -60,6 +61,7 @@ ul li a.active{
   border: 1px solid rgb(95, 45, 20, .3);
   left: -2.2rem;
   position: relative;
+  transition: border .4s ease-in-out;
 }
 
 nav{
@@ -87,13 +89,14 @@ nav{
   left: 0;
   bottom: 0;
   cursor: pointer;
+  transition: fill .4s ease-in-out;
 }
 
 .hamburger__btn.close{
   top: 0;
   left: 2px;
   fill: white;
-  /* transition: 3s; */
+  transition: fill .4s ease-in-out;
 }
 
 .middle{
