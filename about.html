@@ -15,7 +15,7 @@
 </head>
 <body>
   <header class="header container">
-    <nav id="nav">
+    <nav id="nav" class="scroll__nav">
       <ul class="header__menu-logo">
         <li>
           <a class="header__logo scroll__logo" href="index.html" >GG</a>
@@ -146,21 +146,7 @@
    
 
 
-<script>
-
-  document.addEventListener('scroll', () =>{
-    const header = document.querySelector('header');
-
-  if (window.scrollY > 427) {
-    header.classList.add('scrolled');
-  } else{
-    header.classList.remove('scrolled')
-  }
-  })
-
-</script>
-
-
+  <script src="js/header.js"></script>
   <script src="js/app.js"></script>
   <script src="js/main.js"></script>
 </body>

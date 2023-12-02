@@ -5,12 +5,17 @@
 .scroll__logo{
   color: white;
 }
+
 .scroll__logo:hover{
   color: white;
 }
 
 .scroll__logo::after{
   border: 1px solid rgba(255, 255, 255, .8);
+}
+
+.header.scrolled #nav{
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .header.scrolled .scroll__logo,

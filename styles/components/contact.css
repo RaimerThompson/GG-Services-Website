@@ -1,3 +1,38 @@
+.scroll__btn{
+  fill: rgb(95, 45, 20);
+}
+
+.scroll__logo{
+  color: rgb(95, 45, 20, .8);
+}
+
+.scroll__logo:hover{
+  color: rgb(95, 45, 20, .8);
+}
+
+.scroll__logo::after{
+  border: 1px solid rgba(95, 45, 20, .3);
+}
+
+.header.scrolled #nav{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.header.scrolled .scroll__logo,
+.header.scrolled .scroll__btn{
+  color: rgb(95, 45, 20, .8);
+  fill: rgb(95, 45, 20);
+}
+
+.header.scrolled .scroll__logo::after{
+  border: 1px solid rgb(95, 45, 20, .3);
+}
+
+.header.scrolled .hamburger__btn.close{
+  fill: white;
+}
+
+
 .contact{
   max-width: 1224px;
   width: 905;
@@ -176,7 +211,7 @@
 }
 
 .contact__type ul li:hover{
-  color: rgb(95, 45, 20);
+  color: rgb(234, 105, 41);
   opacity: 1;
 }
 
@@ -187,7 +222,10 @@
 
 .tab__contents.active__tab{
   display: block;
- 
+}
+
+.active__link{
+  color: rgb(234, 105, 41);
 }
 
 
