@@ -37,13 +37,22 @@ color: rgb(235, 155, 115);
 }
 
 .footer__middle {
-  text-align: center;
+  /* text-align: center; */
   /* border: 2px dotted red; */
+  text-align: left;
 }
 
 .gg__name{
-  font-family: Custom;
-  font-size: 4.5rem;
+  /* font-family: Custom;
+  font-size: 4.5rem; */
+  font-family: 'Libre Baskerville', sans-serif;
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 2.5rem;
+  text-align: center;
+  /* border: 2px dotted black; */
+  position: relative;
+  text-transform: uppercase;
 }
 
 .gg__events{
@@ -55,11 +64,13 @@ color: rgb(235, 155, 115);
   /* border: 2px dotted black; */
   position: relative;
   left: 13px;
+  display: none;
 }
 
 .copyright{
   max-width: 1524px;
   background-color: rgb(240, 200, 180, .1);
+  margin-top: 4rem;
 }
 
 .footer__copyright{
@@ -70,8 +81,8 @@ color: rgb(235, 155, 115);
   margin-right: auto;
   margin-top: 6px;
   padding: 1rem 0;
-  letter-spacing: 2px;
-  font-size: 7px;
+  letter-spacing: 3px;
+  font-size: 8px;
   text-transform: uppercase;
   font-family: 'Libre Baskerville', sans-serif;
 }
