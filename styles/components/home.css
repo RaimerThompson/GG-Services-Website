@@ -304,7 +304,6 @@ position: relative;
   font-weight: 100;
   right: 2.25rem;
   bottom: .5rem;
-  
   cursor: pointer;
 }
 
@@ -323,16 +322,16 @@ position: relative;
 
 .home__quote-left{
   font-family: Custom; 
-  font-size: 3rem; 
+  font-size: 4.5rem; 
   font-style: italic;
   color:rgb(18, 7, 2, .75);
   line-height: 4rem;
-  width: 250px;
+  width: 360px;
   font-weight: 100;
   padding: 1rem ;
   position: relative;
   /* background-color: white; */
-  bottom: -3rem;
+  bottom: -1rem;
   /* Mobile */
   /* width: 299px; */
 }
@@ -344,7 +343,7 @@ position: relative;
   justify-content: space-evenly;
   align-items: center;
   gap: 3rem;
-  padding-top: 2rem;
+  padding-top: 6rem;
   padding-bottom: 4rem;
   position: relative;
 }
