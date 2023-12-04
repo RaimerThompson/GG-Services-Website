@@ -35,7 +35,7 @@
 
 .work{
   max-width: 1224px;
-  width: 82%;
+  width: 90%;
   margin: auto;
   padding: 4rem 0;
 }
@@ -207,7 +207,15 @@
 /* @media (min-width: 475px) {} */
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+  
+.work{
+  max-width: 1224px;
+  width: 84%;
+  margin: auto;
+  padding: 4rem 0;
+}
+}
 
 /* md */
 /* @media (min-width: 768px) {} */
