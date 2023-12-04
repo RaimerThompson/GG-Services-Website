@@ -78,11 +78,12 @@ color: rgb(235, 155, 115);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: .5rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6px;
-  padding: 1rem 0;
+  margin-top: 8px;
+  padding: 1.5rem 0;
   letter-spacing: 2.5px;
   font-size: 6.5px;
   text-transform: uppercase;
@@ -92,9 +93,7 @@ color: rgb(235, 155, 115);
 /* xs */
 @media (min-width: 475px) {
   .footer__copyright{
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 7px;
+    font-size: 9px;
     width: 90%;
   }
 }
@@ -102,6 +101,8 @@ color: rgb(235, 155, 115);
 /* sm */
 @media (min-width: 640px) {
   .footer__copyright{
+    flex-direction: row;
+    justify-content: space-between;
     width: 80%;
     font-size: 8px;
   }
