@@ -69,10 +69,9 @@
   font-weight: 100;
   letter-spacing: 1px;
   position: absolute;
-  top: 20%;
+  top: 30%;
   width: 100%;
   color: white;
-  
 }
 
 .about__modal{
@@ -225,11 +224,11 @@ background-attachment: fixed;
 
 .about__text{
   margin-bottom: 1rem;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Libre Baskerville', sans-serif;
-  width: 400px;
-  max-width: 400px;
-  /* padding: 0 1rem; */
+  width: 320px;
+  max-width: 320px;
+  padding: 0 1rem;
   /* border: 1px dotted blue; */
 }
 
@@ -367,6 +366,16 @@ border-radius: 2px;
   /* border: 2px dotted red; */
 }
 
+  .about__text{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    font-family: 'Libre Baskerville', sans-serif;
+    width: 400px;
+    max-width: 400px;
+    padding: 0 1rem;
+    /* border: 1px dotted blue; */
+  }
+
   .about__sub-text{
     font-family: Custom;
     font-size: 4rem;
@@ -486,7 +495,7 @@ border-radius: 2px;
     font-weight: 100;
     letter-spacing: 1px;
     position: absolute;
-    top: 20%;
+    top: 30%;
     width: 100%;
     color: white;
     
@@ -558,7 +567,7 @@ border-radius: 2px;
     position: absolute; 
     left: 0;
     right: auto;
-    top: 0;
+    top: 2.5rem;
     transform: scale(1, 1);
     margin-bottom: 10rem;
   }
@@ -639,11 +648,11 @@ border-radius: 2px;
   
   .about__text{
     margin-bottom: 1rem;
-    font-size: 10px;
+    font-size: 14px;
     font-family: 'Libre Baskerville', sans-serif;
     width: 300px;
     max-width: 300px;
-    /* padding: 0 1rem; */
+    padding: 0;
     /* border: 1px dotted blue; */
   }
   
