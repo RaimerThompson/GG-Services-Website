@@ -76,13 +76,47 @@ color: rgb(235, 155, 115);
 .footer__copyright{
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6px;
   padding: 1rem 0;
-  letter-spacing: 3px;
-  font-size: 8px;
+  letter-spacing: 1px;
+  font-size: 6px;
   text-transform: uppercase;
   font-family: 'Libre Baskerville', sans-serif;
+  color: blueviolet;
 }
+
+/* xs */
+@media (min-width: 475px) {
+  .footer__copyright{
+    font-size: 7px;
+    letter-spacing: 2.5px;
+    color: red;
+    width: 90%;
+
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .footer__copyright{
+    width: 80%;
+    font-size: 8px;
+    color:aqua;
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+
