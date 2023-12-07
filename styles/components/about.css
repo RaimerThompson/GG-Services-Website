@@ -170,7 +170,7 @@ background: url(/images/904.jpg);
 background-position: center;
 background-size: cover ;
 background-attachment: fixed;
-  background-color: rgba(0,0,0, .5);
+background-color: rgba(0,0,0, .5);
 
 /* border: 3px solid orange; */
 }
