@@ -5,8 +5,16 @@
 }
 
 .section {
-margin-top: 3rem;
+/* margin-top: 3rem; */
 }
+
+/* Mobile */
+@media (min-width: 325px) {
+  .container {
+    max-width: 325px;
+  }
+ }
+
 
 /* xs */
 @media (min-width: 475px) {

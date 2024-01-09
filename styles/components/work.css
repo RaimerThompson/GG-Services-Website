@@ -34,7 +34,7 @@
 
 
 .work{
-  max-width: 1224px;
+  max-width: 2624px;
   width: 90%;
   margin: auto;
   padding: 4rem 0;
@@ -48,6 +48,10 @@
   font-size: 6rem;
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+.work__gallery{
+  margin-top: 3rem;
 }
 
 /* .work__gallery{
@@ -210,7 +214,7 @@
 @media (min-width: 640px) {
   
 .work{
-  max-width: 1224px;
+  max-width: 2624px;
   width: 84%;
   margin: auto;
   padding: 4rem 0;

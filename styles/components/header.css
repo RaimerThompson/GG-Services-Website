@@ -41,7 +41,7 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: Custom;
+  font-family: South;
 }
 
 .header__logo:hover{
@@ -49,20 +49,19 @@ ul li a.active{
 }
 
 .header__logo{
-  /* font-size: 1.5rem; */
-  font-size: 1.7em;
+  font-size: .7rem;
   font-weight: 600;
   color: rgb(95, 45, 20);
-  letter-spacing: 9px;
+  letter-spacing: 7px;
 }
 
-.header__logo::after{
+/* .header__logo::after{
   content: '';
   border: 1px solid rgb(95, 45, 20, .3);
   left: -2.2rem;
   position: relative;
   transition: border .4s ease-in-out;
-}
+} */
 
 #nav{
   display: flex;
@@ -149,8 +148,18 @@ ul li a.active{
   background-color: rgb(240, 200, 180);
 }
 
+@media (min-width: 346px) {
+  .header__logo{
+    font-size: .9rem;
+    font-weight: 600;
+    color: rgb(95, 45, 20);
+    letter-spacing: 7px;
+  }
+}
+
 /* xs */
 /* @media (min-width: 475px) {} */
+
 
 /* sm */
 /* @media (min-width: 640px) {} */
