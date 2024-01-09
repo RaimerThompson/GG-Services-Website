@@ -48,6 +48,29 @@
   overflow: hidden;
 }
 
+.home__title{
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title__logo{
+  font-family: South;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.title__sub-logo{
+  font-family: Balerno;
+  letter-spacing: 6px;
+}
+
 .slide{
   position: absolute;
   left: 0;
