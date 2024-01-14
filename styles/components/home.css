@@ -67,8 +67,8 @@
 }
 
 .title__sub-logo{
-  font-family: Balerno;
-  font-size: .75rem;
+  font-family: Melanic;
+  font-size: .5rem;
   letter-spacing: 2px;
 }
 
@@ -597,7 +597,7 @@
   }
   
   .title__sub-logo{
-    font-family: Balerno;
+    font-family: Melanic;
     font-size: .7rem;
     letter-spacing: 6px;
   }
@@ -676,13 +676,13 @@
 
   .title__logo{
     font-family: Melanic;
-    font-size: 1.85rem;
+    font-size: 2.25rem;
     letter-spacing: 10px;
   }
 
   .title__sub-logo{
-    font-family: Balerno;
-    font-size: 1rem;
+    font-family: Melanic;
+    font-size: .8rem;
     letter-spacing: 7px;
   }
 
@@ -798,15 +798,16 @@
 @media (min-width: 640px) {
 
   .title__logo{
-    font-family: South;
-    font-size: 2.75rem;
+    font-family: Melanic;
+    font-size: 3.3rem;
     letter-spacing: 12px;
   }
   
   .title__sub-logo{
-    font-family: Balerno;
-    font-size: 1.5rem;
+    font-family: Melanic;
+    font-size: 1rem;
     letter-spacing: 8px;
+   
   }
 
   .gallery{
@@ -907,13 +908,13 @@
 
   .title__logo{
     font-family: Melanic;
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: Balerno;
-    font-size: 1.5rem;
+    font-family: Melanic;
+    font-size: 1.2rem;
     letter-spacing: 10px;
   }
   
@@ -1206,13 +1207,13 @@
 
   .title__logo{
     font-family: Melanic;
-    font-size: 5.35rem;
+    font-size: 6.3rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: Balerno;
-    font-size: 1.8rem;
+    font-family: Melanic;
+    font-size: 1.5rem;
     letter-spacing: 10px;
   }
 
@@ -1290,13 +1291,13 @@
 
   .title__logo{
     font-family: Melanic;
-    font-size: 7rem;
+    font-size: 7.85rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: Balerno;
-    font-size: 2rem;
+    font-family: Melanic;
+    font-size: 1.5rem;
     letter-spacing: 10px;
   }
 
