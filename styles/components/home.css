@@ -799,7 +799,7 @@
 
   .title__logo{
     font-family: South;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     letter-spacing: 12px;
   }
   
@@ -1204,7 +1204,18 @@
 /* Lg */
 @media (min-width: 1024px) {
 
+  .title__logo{
+    font-family: South;
+    font-size: 5.35rem;
+    letter-spacing: 11px;
+  }
   
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+  }
+
   .home__gallery-container{
     /* border: 2px solid red; */
     position: relative;
@@ -1276,6 +1287,19 @@
 
 /* xL */
 @media (min-width: 1288px) {
+
+  .title__logo{
+    font-family: South;
+    font-size: 7rem;
+    letter-spacing: 11px;
+  }
+  
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: 2rem;
+    letter-spacing: 10px;
+  }
+
   .home__gallery-container{
     /* border: 2px solid red; */
     position: relative;
