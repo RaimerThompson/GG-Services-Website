@@ -21,8 +21,10 @@
 
 .header.scrolled .scroll__logo,
 .header.scrolled .scroll__btn{
-  color: rgb(95, 45, 20, .8);
-  fill: rgb(95, 45, 20);
+  /* color: rgb(95, 45, 20, .8);
+  fill: rgb(95, 45, 20); */
+  color: rgba(0, 0, 0, 0.8);
+  fill: black;
 }
 
 .header.scrolled .scroll__logo::after{
@@ -419,7 +421,7 @@
 
 .home__services-line{
   content: "";
-  border-bottom: 1px solid rgb(95, 45, 20, .3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   width: 30px;
   height: 1px;
   position: relative;
@@ -430,7 +432,8 @@
 
 .home__services-quote-name{
   opacity: .5;
-  color: rgb(95, 45, 20);
+  /* color: rgb(95, 45, 20); */
+  color: black;
 }
 
 .home__quote-right{
@@ -510,7 +513,7 @@
 
 .home__modal-line{
   content: "";
-  border-bottom: 1px solid rgb(95, 45, 20, .3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   width: 30px;
   height: 1px;
   position: relative;
