@@ -61,7 +61,7 @@
 }
 
 .title__logo{
-  font-family: South;
+  font-family: Melanic;
   font-size: 1.25rem;
   letter-spacing: 6px;
 }
@@ -591,7 +591,7 @@
 @media (min-width: 320px) {
 
   .title__logo{
-    font-family: South;
+    font-family: Melanic;
     font-size: 1.4rem;
     letter-spacing: 6px;
   }
@@ -675,7 +675,7 @@
 @media (min-width: 475px) {
 
   .title__logo{
-    font-family: South;
+    font-family: Melanic;
     font-size: 1.85rem;
     letter-spacing: 10px;
   }
@@ -906,7 +906,7 @@
 @media (min-width: 768px) {
 
   .title__logo{
-    font-family: South;
+    font-family: Melanic;
     font-size: 3.5rem;
     letter-spacing: 11px;
   }
@@ -1205,7 +1205,7 @@
 @media (min-width: 1024px) {
 
   .title__logo{
-    font-family: South;
+    font-family: Melanic;
     font-size: 5.35rem;
     letter-spacing: 11px;
   }
@@ -1289,7 +1289,7 @@
 @media (min-width: 1288px) {
 
   .title__logo{
-    font-family: South;
+    font-family: Melanic;
     font-size: 7rem;
     letter-spacing: 11px;
   }

@@ -18,6 +18,10 @@
   font-family: Boston;
   src: url(/fonts/Boston\ Angel\ Regular.ttf);
 }
+@font-face {
+  font-family: Melanic;
+  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf);
+}
 
 * {
   margin: 0;
