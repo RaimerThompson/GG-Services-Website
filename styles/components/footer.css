@@ -1,70 +1,12 @@
 .footer{
-  max-width: 1524px;
+  max-width: 2224px;
   background-color: rgb(240, 200, 180, .1);
   height: 200px;
   position: relative;
 }
 
-.footer__container ul li{
-  text-decoration: none;
-  list-style: none;
-  color: rgb(95, 45, 20, .7);
-  font-size: 16px;
-  line-height: 2.5rem;
-  letter-spacing: 1.25px;
-  cursor: pointer;
-}
-
-.footer__container a{
-  color: rgb(95, 45, 20, .6);
-}
-
-.footer__container ul li a:hover{
-color: rgb(235, 155, 115);
-}
-
-.footer__container{
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  /* border: 2px dotted red; */
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.footer__middle {
-  /* text-align: center; */
-  /* border: 2px dotted red; */
-  text-align: left;
-}
-
-.gg__name{
-  /* font-family: Custom;
-  font-size: 4.5rem; */
-  font-family: 'Libre Baskerville', sans-serif;
-  font-weight: 100;
-  letter-spacing: 10px;
-  font-size: 2.5rem;
-  text-align: center;
-  /* border: 2px dotted black; */
-  position: relative;
-  text-transform: uppercase;
-}
-
-.gg__events{
-  font-family: 'Libre Baskerville', sans-serif;
-  font-weight: 100;
-  letter-spacing: 24px;
-  font-size: 10px;
-  text-align: center;
-  /* border: 2px dotted black; */
-  position: relative;
-  left: 13px;
-  display: none;
+.footer__credit{
+  font-size: 6px;
 }
 
 .copyright{
@@ -76,32 +18,46 @@ color: rgb(235, 155, 115);
 .footer__copyright{
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
-  width: 80%;
+  gap: .75rem;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 8px;
   padding: 1.5rem 0;
-  letter-spacing: 2.5px;
-  font-size: 7.5px;
+  letter-spacing: 1.5px;
+  font-size: 6.25px;
   text-transform: uppercase;
   font-family: 'Libre Baskerville', sans-serif;
 }
 
 /* xs */
+@media (min-width: 325px) {
+  .footer__copyright{
+    font-size: 6.5px;
+    width: 95%;
+    letter-spacing: 1.75px;
+  }
+}
+
+/* xs */
 @media (min-width: 475px) {
   .footer__copyright{
-    font-size: 9px;
+    font-size: 8.5px;
     width: 90%;
+  }
+
+  .footer__credit{
+    font-size: 7px;
   }
 }
 
 /* sm */
 @media (min-width: 640px) {
   .footer__copyright{
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     width: 80%;
     font-size: 8.5px;

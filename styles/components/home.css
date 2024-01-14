@@ -62,13 +62,14 @@
 
 .title__logo{
   font-family: South;
-  font-size: 2rem;
-  letter-spacing: 3px;
+  font-size: 1.25rem;
+  letter-spacing: 6px;
 }
 
 .title__sub-logo{
   font-family: Balerno;
-  letter-spacing: 6px;
+  font-size: .75rem;
+  letter-spacing: 2px;
 }
 
 .slide{
@@ -589,6 +590,18 @@
 /* mobile */
 @media (min-width: 320px) {
 
+  .title__logo{
+    font-family: South;
+    font-size: 1.4rem;
+    letter-spacing: 6px;
+  }
+  
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: .7rem;
+    letter-spacing: 6px;
+  }
+
   .home__gallery-container{
     /* border: 2px solid red; */
     position: relative;
@@ -661,6 +674,17 @@
 /* xs */
 @media (min-width: 475px) {
 
+  .title__logo{
+    font-family: South;
+    font-size: 1.85rem;
+    letter-spacing: 10px;
+  }
+
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: 1rem;
+    letter-spacing: 7px;
+  }
 
   .home__gallery-container{
     /* border: 2px solid red; */
@@ -772,7 +796,19 @@
 
 /* sm */
 @media (min-width: 640px) {
+
+  .title__logo{
+    font-family: South;
+    font-size: 2.5rem;
+    letter-spacing: 12px;
+  }
   
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+  }
+
   .gallery{
     display: block;
   }
@@ -868,6 +904,18 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  .title__logo{
+    font-family: South;
+    font-size: 3.5rem;
+    letter-spacing: 11px;
+  }
+  
+  .title__sub-logo{
+    font-family: Balerno;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+  }
   
   .home__sub-text{
     font-family: Balerno;
