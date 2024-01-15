@@ -110,6 +110,7 @@
   z-index: 8;
   display: flex;
   opacity: 1;
+  /* transition: ease 1s; */
 }
 
 .home__sub-title{
