@@ -94,6 +94,7 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  filter: contrast(80%);
 }
 
 .slide.active{
@@ -601,7 +602,7 @@
   
   .title__sub-logo{
     font-family: Melanic;
-    font-size: .7rem;
+    font-size: .55rem;
     letter-spacing: 6px;
   }
 
