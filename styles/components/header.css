@@ -41,7 +41,7 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: South;
+  font-family: 'Melanic' !important;
 }
 
 .header__logo:hover{
