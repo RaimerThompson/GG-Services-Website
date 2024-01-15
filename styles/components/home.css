@@ -704,6 +704,15 @@
     letter-spacing: 7px;
   }
 
+  
+  .home__sub-text{
+    font-size: 1rem;
+  }
+
+  .span__extra{
+    font-size: 60px;
+  }
+
   .home__gallery-container{
     /* border: 2px solid red; */
     position: relative;
@@ -951,7 +960,7 @@
   .home__sub-text{
     font-family: Melanic;
     font-size: 1.2rem;
-    max-width: 448px;
+    max-width: 478px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -3rem;
