@@ -20,12 +20,14 @@
 
 .header.scrolled .scroll__logo,
 .header.scrolled .scroll__btn{
-  color: rgb(95, 45, 20, .8);
-  fill: rgb(95, 45, 20);
+  /* color: rgb(95, 45, 20, .8);
+  fill: rgb(95, 45, 20); */
+  color: rgba(0, 0, 0, 0.8);
+  fill: black;
 }
 
 .header.scrolled .scroll__logo::after{
-  border: 1px solid rgb(95, 45, 20, .3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .header.scrolled .hamburger__btn.close{
@@ -174,7 +176,7 @@ h4{
 
 .services__line{
   content: "";
-  border-bottom: 1px solid rgb(95, 45, 20, .3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   width: 30px;
   height: 1px;
   position: relative;
@@ -183,7 +185,7 @@ h4{
 
 .services__quote-name{
   opacity: .5;
-  color: rgb(95, 45, 20);
+  color: rgb(0, 0, 0);
 }
 
 .row1{
@@ -202,7 +204,7 @@ text-transform: uppercase;
 
 .row__line{
 content: "";
-border-bottom: 1.25px solid rgb(95, 45, 20, .8);
+border-bottom: 1.25px solid rgba(0, 0, 0, 0.8);
 width: 30px;
 height: 1px;
 position: relative;
@@ -211,7 +213,7 @@ margin-bottom: 10px;
 }
 
 .row__text{
-color: rgb(95, 45, 20, .65);
+color: rgba(0, 0, 0, 0.65);
 margin-bottom: 1rem;
 letter-spacing: 1.5px;
 font-family: 'Lato', sans-serif;
@@ -442,7 +444,7 @@ position: relative;
 }
 
 .banner__text{
-  color: rgb(95, 45, 20, .5);
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   line-height: 1.2;
   font-size: 1.5rem;
@@ -650,12 +652,12 @@ position: relative;
   
   .header.scrolled .scroll__logo,
   .header.scrolled .scroll__btn{
-    color: rgb(95, 45, 20, .8);
-    fill: rgb(95, 45, 20);
+    color: rgba(0, 0, 0, 0.8);
+    fill: rgb(0, 0, 0);
   }
   
   .header.scrolled .scroll__logo::after{
-    border: 1px solid rgb(95, 45, 20, .3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
   }
   
   .header.scrolled .hamburger__btn.close{
@@ -803,7 +805,7 @@ position: relative;
   
   .services__line{
     content: "";
-    border-bottom: 1px solid rgb(95, 45, 20, .3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     width: 30px;
     height: 1px;
     position: relative;
@@ -812,7 +814,7 @@ position: relative;
   
   .services__quote-name{
     opacity: .5;
-    color: rgb(95, 45, 20);
+    color: rgb(0, 0, 0);
   }
   
   .row1{
@@ -831,7 +833,7 @@ position: relative;
   
   .row__line{
   content: "";
-  border-bottom: 1.25px solid rgb(95, 45, 20, .8);
+  border-bottom: 1.25px solid rgba(0, 0, 0, 0.8);
   width: 30px;
   height: 1px;
   position: relative;
@@ -840,7 +842,7 @@ position: relative;
   }
   
   .row__text{
-  color: rgb(95, 45, 20, .65);
+  color: rgba(0, 0, 0, 0.65);
   margin-bottom: 1rem;
   letter-spacing: 1.5px;
   font-family: 'Lato', sans-serif;
@@ -1065,7 +1067,7 @@ position: relative;
   }
   
   .banner__text{
-    color: rgb(95, 45, 20, .55);
+    color: rgba(0, 0, 0, 0.55);
     text-align: left;
     line-height: 1.2;
     font-size: 2.2rem;

@@ -1,17 +1,17 @@
 .scroll__btn{
-  fill: rgb(95, 45, 20);
+  fill: rgb(0, 0, 0);
 }
 
 .scroll__logo{
-  color: rgb(95, 45, 20, .8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .scroll__logo:hover{
-  color: rgb(95, 45, 20, .8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .scroll__logo::after{
-  border: 1px solid rgba(95, 45, 20, .3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .header.scrolled #nav{
@@ -20,12 +20,12 @@
 
 .header.scrolled .scroll__logo,
 .header.scrolled .scroll__btn{
-  color: rgb(95, 45, 20, .8);
-  fill: rgb(95, 45, 20);
+  color: rgba(0, 0, 0, 0.8);
+  fill: rgb(0, 0, 0);
 }
 
 .header.scrolled .scroll__logo::after{
-  border: 1px solid rgb(95, 45, 20, .3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .header.scrolled .hamburger__btn.close{
@@ -42,7 +42,7 @@
 
 .work__title{
   margin-bottom: 7rem;
-  color: rgb(95, 45, 20, .8);
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
   font-family: Custom;
   font-size: 6rem;
