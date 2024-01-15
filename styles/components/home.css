@@ -126,7 +126,7 @@
 .span__extra{
   font-family: Custom;
   letter-spacing: 2px;
-  font-size: 80px;
+  font-size: 58px;
   text-transform: lowercase;
   line-height: 50px;
   /* padding-right: 5px; */
@@ -137,14 +137,14 @@
 
 .home__sub-text{
   font-family: Melanic;
-  font-size: 1.2rem;
-  max-width: 664px;
+  font-size: .72rem;
+  max-width: 448px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -3rem;
   font-weight: 100;
   opacity: .6;
-  /* line-height: 1px; */
+  line-height: 60px;
   letter-spacing: 6px;
   text-transform: uppercase;
   position: relative;
@@ -936,19 +936,32 @@
     letter-spacing: 10px;
   }
   
+  .span__extra{
+    font-family: Custom;
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-transform: lowercase;
+    line-height: 50px;
+    /* padding-right: 5px; */
+    position: relative;
+    top: 10px;
+    left: -5px;
+  }
+  
   .home__sub-text{
-    font-family: Balerno;
-    font-size: 1.3rem;
-    max-width: 664px;
+    font-family: Melanic;
+    font-size: 1.2rem;
+    max-width: 448px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
     font-weight: 100;
     opacity: .6;
-    letter-spacing: 16px;
+    line-height: 60px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     position: relative;
-    top: -2.75rem;
+    top: -3.5rem;
   }
 
   .home__gallery-container{
