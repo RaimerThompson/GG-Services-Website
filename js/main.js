@@ -41,7 +41,7 @@ function changeSlide(){
 function autoPlay(){
   nextSlide();
 }
-let timer = setInterval(autoPlay, 3000)
+let timer = setInterval(autoPlay, 3500)
 
 
 
