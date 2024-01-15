@@ -503,7 +503,7 @@
 .home__modal{
   background-color: white;
   position: absolute;
-  bottom: -6rem;
+  bottom: -7rem;
   width: 280px;
   height: 260px;
   margin-left: auto;
@@ -523,7 +523,7 @@
   opacity: .85;
   line-height: 2rem;
   font-family: Balerno;
-  margin-top: -3.5rem;
+  margin-top: -2rem;
 }
 
 .home__modal-line{
@@ -540,7 +540,7 @@
 .home__modal-btn{
   font-family: Custom;
   color:rgb(18, 7, 2, .75);
-  font-size: 2.25rem;
+  font-size: 3rem;
   font-weight: 100;
   bottom: -2rem;
   letter-spacing: 1px;
