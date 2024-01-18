@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Melanic';
-  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf);
+  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf)
 }
 
 @font-face {
@@ -19,10 +19,7 @@
   font-family: South;
   src: url(/fonts/South-Korea.ttf);
 }
-@font-face {
-  font-family: Boston;
-  src: url(/fonts/Boston\ Angel\ Regular.ttf);
-}
+
 
 
 * {
