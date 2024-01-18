@@ -52,10 +52,13 @@ ul li a.active{
 }
 
 .header__logo{
-  font-size: .7rem;
-  font-weight: 600;
-  color: rgb(95, 45, 20);
-  letter-spacing: 7px;
+  font-size: .75rem;
+  font-weight: 100;
+  color: black;
+  letter-spacing: 5px;
+  font-family: A;
+  position: relative;
+  top: -3px;
 }
 
 /* .header__logo::after{
@@ -155,9 +158,6 @@ ul li a.active{
 @media (min-width: 346px) {
   .header__logo{
     font-size: .9rem;
-    font-weight: 600;
-    color: rgb(95, 45, 20);
-    letter-spacing: 7px;
   }
 }
 

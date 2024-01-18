@@ -66,12 +66,16 @@
   font-family: A;
   font-size: 1.25rem;
   letter-spacing: 6px;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .title__sub-logo{
-  font-family: 'Melanic' !important ;
+  font-family: A;
   font-size: .5rem;
   letter-spacing: 4px;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .title__sub-bot{
@@ -143,7 +147,7 @@
 }
 
 .home__sub-text{
-  font-family: Melanic;
+  font-family: A;
   font-size: .72rem;
   max-width: 448px;
   margin-left: auto;
@@ -668,7 +672,7 @@
   }
   
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family:  A;
     font-size: .55rem;
     letter-spacing: 5px;
   }
@@ -765,13 +769,13 @@
 @media (min-width: 475px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: 2.2rem;
     letter-spacing: 10px;
   }
 
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: .8rem;
     letter-spacing: 8px;
   }
@@ -903,13 +907,13 @@
 @media (min-width: 640px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A;
     font-size: 3.25rem;
     letter-spacing: 12px;
   }
   
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family: A;
     font-size: 1.3rem;
     letter-spacing: 9px;
   }
@@ -1018,13 +1022,13 @@
 @media (min-width: 768px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A;
     font-size: 4.25rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family: A;
     font-size: 1.5rem;
     letter-spacing: 10px;
   }
@@ -1050,7 +1054,7 @@
   }
   
   .home__sub-text{
-    font-family: Melanic;
+    font-family: A;
     font-size: 1.2rem;
     max-width: 478px;
     margin-left: auto;
@@ -1338,13 +1342,13 @@
 @media (min-width: 1024px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: 6.2rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: 2rem;
     letter-spacing: 12px;
   }
@@ -1429,13 +1433,13 @@
 @media (min-width: 1288px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: 7.85rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: 'Melanic' !important ;
+    font-family: A ;
     font-size: 2.25rem;
     letter-spacing: 14px;
   }
