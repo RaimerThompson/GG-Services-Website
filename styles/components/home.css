@@ -63,7 +63,7 @@
 }
 
 .title__logo{
-  font-family: 'Melanic' !important ;
+  font-family: 'Melanic' !important;
   font-size: 1.25rem;
   letter-spacing: 6px;
 }
@@ -71,12 +71,12 @@
 .title__sub-logo{
   font-family: 'Melanic' !important ;
   font-size: .5rem;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 }
 
 .title__sub-bot{
   font-family: Camron;
-  font-size: 1rem;
+  font-size: .5rem;
   font-weight: 100;
   margin-top: .25rem;
 }
@@ -172,6 +172,33 @@
   width: 85%;
   margin: auto;
   display: none;
+}
+
+.home__intro-gallery{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* border: 2px solid red; */
+  margin-bottom: 4rem;
+}
+
+.intro__image-div{
+  /* background-color: blue; */
+  width: 360px;
+  height: 540px;
+}
+
+.intro__image-div-sm{
+  /* background-color: red; */
+  width: 260px;
+  height: 390px;
+  margin-top: 5rem;
+}
+
+.intro__img{
+  width: 100%;
+  height: 100%;
 }
 
 .home__gallery-container{
@@ -624,7 +651,14 @@
   .title__sub-logo{
     font-family: 'Melanic' !important ;
     font-size: .55rem;
-    letter-spacing: 6px;
+    letter-spacing: 5px;
+  }
+
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: .6rem;
+    font-weight: 100;
+    margin-top: .15rem;
   }
 
   .span__extra{
@@ -720,9 +754,15 @@
   .title__sub-logo{
     font-family: 'Melanic' !important ;
     font-size: .8rem;
-    letter-spacing: 7px;
+    letter-spacing: 8px;
   }
 
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: .85rem;
+    font-weight: 100;
+    margin-top: .2rem;
+  }
   
   .home__sub-text{
     font-size: 1rem;
@@ -851,9 +891,15 @@
   
   .title__sub-logo{
     font-family: 'Melanic' !important ;
-    font-size: 1rem;
-    letter-spacing: 8px;
-   
+    font-size: 1.3rem;
+    letter-spacing: 9px;
+  }
+
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-top: .25rem;
   }
 
   .gallery{
@@ -960,8 +1006,16 @@
   
   .title__sub-logo{
     font-family: 'Melanic' !important ;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 10px;
+  }
+
+  
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-top: .25rem;
   }
   
   .span__extra{
@@ -1272,8 +1326,15 @@
   
   .title__sub-logo{
     font-family: 'Melanic' !important ;
+    font-size: 2rem;
+    letter-spacing: 12px;
+  }
+
+  .title__sub-bot{
+    font-family: Camron;
     font-size: 1.5rem;
-    letter-spacing: 10px;
+    font-weight: 100;
+    margin-top: .5rem;
   }
 
   .home__gallery-container{
@@ -1356,8 +1417,16 @@
   
   .title__sub-logo{
     font-family: 'Melanic' !important ;
-    font-size: 1.5rem;
-    letter-spacing: 10px;
+    font-size: 2.25rem;
+    letter-spacing: 14px;
+  }
+
+  
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: 1.7rem;
+    font-weight: 100;
+    margin-top: .75rem;
   }
 
   .home__gallery-container{
