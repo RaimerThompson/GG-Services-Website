@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'Melanic';
+  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf);
+}
+
 @font-face {
   font-family: Custom;
   src: url(/fonts/Canonatia.ttf);
@@ -18,10 +23,7 @@
   font-family: Boston;
   src: url(/fonts/Boston\ Angel\ Regular.ttf);
 }
-@font-face {
-  font-family: 'Melanic';
-  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf);
-}
+
 
 * {
   margin: 0;
