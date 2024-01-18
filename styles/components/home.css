@@ -74,6 +74,13 @@
   letter-spacing: 2px;
 }
 
+.title__sub-bot{
+  font-family: Camron;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: .25rem;
+}
+
 .slide{
   position: absolute;
   left: 0;

@@ -2,7 +2,9 @@ ul li a{
   text-decoration: none;
   list-style: none;
   /* color: rgba(56, 55, 55, .9); */
-  color: rgb(95, 45, 20, .8);
+  /* color: rgb(95, 45, 20, .8); */
+  color: white;
+  /* color: black; */
   font-size: 16px;
   letter-spacing: 1.25px;
 
@@ -11,7 +13,8 @@ ul li a{
 
 ul li a:hover{
 
-color: rgb(254, 254, 254);
+/* color: rgb(254, 254, 254); */
+opacity: .6;
 }
 
 /* ul li a:active{
@@ -145,7 +148,8 @@ ul li a.active{
 #navbar.active{
   right: 0;
   transition: .5s ease-in-out;
-  background-color: rgb(240, 200, 180);
+  /* background-color: rgb(240, 200, 180); */
+  background-color: #817162;
 }
 
 @media (min-width: 346px) {
