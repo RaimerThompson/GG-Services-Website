@@ -3,6 +3,11 @@
   src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf)
 }
 
+@font-face{
+  font-family: A;
+  src: url(/fonts/Achafexp.ttf);
+}
+
 @font-face {
   font-family: Custom;
   src: url(/fonts/Canonatia.ttf);

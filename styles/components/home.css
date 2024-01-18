@@ -63,7 +63,7 @@
 }
 
 .title__logo{
-  font-family: 'Melanic' !important;
+  font-family: A;
   font-size: 1.25rem;
   letter-spacing: 6px;
 }
@@ -661,7 +661,7 @@
 @media (min-width: 320px) {
 
   .title__logo{
-    font-family: 'Melanic' !important ;
+    font-family: A;
     font-size: 1.37rem;
     letter-spacing: 6px;
   }
