@@ -206,10 +206,12 @@
   font-weight: 100;
   letter-spacing: 2px;
   max-width: 920px;
+  text-align: center;
+  /* border: 2px dotted red; */
   margin-bottom: 3rem;
+  padding: 0 3rem;
   margin-left: auto;
   margin-right: auto;
-  /* border: 2px dotted red; */
 } 
 
 .secondary{
