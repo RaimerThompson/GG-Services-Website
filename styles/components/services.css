@@ -22,7 +22,7 @@
 .header.scrolled .scroll__btn{
   /* color: rgb(95, 45, 20, .8);
   fill: rgb(95, 45, 20); */
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0);
   fill: black;
 }
 
@@ -652,7 +652,7 @@ position: relative;
   
   .header.scrolled .scroll__logo,
   .header.scrolled .scroll__btn{
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0, 0, 0);
     fill: rgb(0, 0, 0);
   }
   

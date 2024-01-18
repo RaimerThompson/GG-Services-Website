@@ -23,7 +23,7 @@
 .header.scrolled .scroll__btn{
   /* color: rgb(95, 45, 20, .8);
   fill: rgb(95, 45, 20); */
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(0, 0, 0);
   fill: black;
 }
 
@@ -68,6 +68,7 @@
   letter-spacing: 6px;
   font-weight: 100;
   text-transform: uppercase;
+  margin-bottom: 4px;
 }
 
 .title__sub-logo{
@@ -76,6 +77,7 @@
   letter-spacing: 4px;
   font-weight: 100;
   text-transform: uppercase;
+  margin-bottom: 4px;
 }
 
 .title__sub-bot{
@@ -137,7 +139,7 @@
 .span__extra{
   font-family: Custom;
   letter-spacing: 2px;
-  font-size: 58px;
+  font-size: 70px;
   text-transform: lowercase;
   line-height: 50px;
   /* padding-right: 5px; */
@@ -148,18 +150,18 @@
 
 .home__sub-text{
   font-family: A;
-  font-size: .72rem;
+  font-size: .8rem;
   max-width: 448px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -3rem;
+  margin-bottom: 3rem;
   font-weight: 100;
   opacity: .6;
   line-height: 60px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   position: relative;
-  top: -3.5rem;
+  /* top: -1.5rem; */
 }
 
 
@@ -669,12 +671,16 @@
     font-size: 1.37rem;
     letter-spacing: 6px;
     font-weight: 100;
+    margin-bottom: 4px;
+
   }
   
   .title__sub-logo{
     font-family:  A;
     font-size: .55rem;
     letter-spacing: 5px;
+    margin-bottom: 4px;
+
   }
 
   .title__sub-bot{
@@ -687,7 +693,7 @@
   .span__extra{
     font-family: Custom;
     letter-spacing: 2px;
-    font-size: 54px;
+    /* font-size: 80px; */
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
@@ -788,11 +794,13 @@
   }
   
   .home__sub-text{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    max-width: 648px;
+    letter-spacing: 4px;
   }
 
   .span__extra{
-    font-size: 60px;
+    font-size: 88px;
   }
 
   .home__gallery-container{
@@ -929,6 +937,12 @@
     display: block;
   }
 
+  .home__sub-text{
+    font-size: 1.65rem;
+    max-width: 748px;
+    letter-spacing: 10px;
+  }
+
   .home__gallery-container{
     /* border: 2px solid red; */
     position: relative;
@@ -1031,6 +1045,8 @@
     font-family: A;
     font-size: 1.5rem;
     letter-spacing: 10px;
+    margin-bottom: 8px;
+
   }
 
   
@@ -1044,29 +1060,30 @@
   .span__extra{
     font-family: Custom;
     letter-spacing: 2px;
-    font-size: 80px;
+    font-size: 140px;
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
     position: relative;
-    top: 10px;
-    left: -5px;
+    top: 12px;
+    left: -8px;
   }
   
   .home__sub-text{
     font-family: A;
-    font-size: 1.2rem;
-    max-width: 478px;
+    font-size: 1.95rem;
+    max-width: 828px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -3rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     font-weight: 100;
     opacity: .6;
-    line-height: 60px;
-    letter-spacing: 6px;
+    line-height: 86px;
+    letter-spacing: 13px;
     text-transform: uppercase;
     position: relative;
-    top: -3.5rem;
+    /* top: -3.5rem; */
   }
 
   .home__gallery-container{
@@ -1343,7 +1360,7 @@
 
   .title__logo{
     font-family: A ;
-    font-size: 6.2rem;
+    font-size: 6rem;
     letter-spacing: 11px;
   }
   
@@ -1358,6 +1375,35 @@
     font-size: 1.5rem;
     font-weight: 100;
     margin-top: .5rem;
+  }
+
+  .span__extra{
+    font-family: Custom;
+    letter-spacing: 2px;
+    font-size: 140px;
+    text-transform: lowercase;
+    line-height: 50px;
+    /* padding-right: 5px; */
+    position: relative;
+    top: 12px;
+    left: -8px;
+  }
+  
+  .home__sub-text{
+    font-family: A;
+    font-size: 2.25rem;
+    max-width: 1228px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    opacity: .6;
+    line-height: 86px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    position: relative;
+    /* top: -3.5rem; */
   }
 
   .home__gallery-container{
