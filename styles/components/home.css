@@ -185,15 +185,15 @@
 
 .intro__image-div{
   /* background-color: blue; */
-  width: 360px;
-  height: 540px;
+  width: 440px;
+  height: 660px;
 }
 
 .intro__image-div-sm{
   /* background-color: red; */
   width: 260px;
   height: 390px;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .intro__img{
