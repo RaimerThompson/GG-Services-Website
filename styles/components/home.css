@@ -669,7 +669,11 @@
   letter-spacing: 10px;
   line-height: 3rem;
   text-transform: uppercase;
-  position: relative;
+  position: absolute;
+  top: -10px;
+  z-index: 3;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.256);
   /* margin-bottom: 4rem; */
 }
 
@@ -678,6 +682,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
+  position: relative;
 }
 
 .contact__img{
