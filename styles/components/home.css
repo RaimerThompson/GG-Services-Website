@@ -587,6 +587,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 
@@ -649,6 +651,7 @@
   margin: 0 auto;
   /* padding-bottom: 5.5rem; */
   /* padding-top: 0rem; */
+  border: 2px dotted red;
 }
 
 .home__contact-text{
@@ -661,12 +664,20 @@
   line-height: 3rem;
   text-transform: uppercase;
   position: relative;
+  /* margin-bottom: 4rem; */
 }
 
 .contact__image-container{
   /* border: 2px solid red; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.contact__img{
+  width: 160px;
+  height: 160px;
+  background-color: aqua;
 }
 
 /* mobile */
