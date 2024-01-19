@@ -206,11 +206,11 @@
 }
 
 .home__sub-description{
-  font-family: 'Lato', sans-serif;
+  font-family: Balerno;
   font-size: 1.1rem;
-  opacity: .75;
-  font-weight: 100;
-  letter-spacing: 2px;
+  /* opacity: .85; */
+  /* font-weight: 100; */
+  letter-spacing: 1px;
   max-width: 920px;
   text-align: center;
   /* border: 2px dotted red; */
@@ -225,69 +225,6 @@
   margin-bottom: 4rem;
 }
 
-.home__gallery-container{
-  /* border: 2px solid red; */
-  position: relative;
-  /* mobile */
-  height: 720px;
-  /* desktop */
-  /* height: 880px; */
-  /* max-height: 800px; */
-  max-width: 1000px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 4rem;
-}
-
-.home__gallery-image{
-  position: absolute;
-  border-radius: 2px;
-  left: 0;
-  top: 4rem;
-  /* mobile */
-  max-width: 360px;
-  /* desktop */
-  /* max-width: 460px;
-  left: 5%; 
-  top: 3.5rem; */
-}
-.home__gallery-image3{
-  position: absolute;
-  border-radius: 2px;
-  right: 0;
-  top: 0;
-  /* mobile */
-  max-width: 240px;
-  /* desktop */
-  /* max-width: 300px;
-  right: 10%; */
-}
-
-
-
-.home__gallery-image2{
-  position: absolute;
-  border-radius: 2px;
-  left: 0;
-  bottom: 0;
-  /* mobile */
-  max-width: 240px;
-  /* desktop */
-  /* max-width: 300px;
-  left: 10%; */
-}
-.home__gallery-image4{
-  position: absolute;
-  border-radius: 2px;
-  right: 0;
-  bottom: 4rem;
-    /* mobile */
-  max-width: 360px;
-  /* desktop */
-  /* max-width: 460px; 
-  right: 5%;
-  bottom: 3.5rem; */
-}
 
 .home__image{
   width: 100%;
@@ -344,7 +281,7 @@
   position: relative;
   text-align: center;
   align-items: center;
-  bottom: -.5rem;
+  bottom: -1.5rem;
   /* border: 2px dotted red; */ 
 }
 
@@ -372,11 +309,11 @@
 
 .home__about-text{
   margin-bottom: 1rem;
-  font-size: 12px;
+  font-size: 13px;
   font-family: Balerno;
-  letter-spacing: 1px;
-  width: 285px;
-  max-width: 285px; 
+  letter-spacing: .5px;
+  width: 300px;
+  max-width: 300px; 
   text-align: justify;
   padding: 0 1rem;
   }
@@ -385,13 +322,13 @@
   font-size: .725rem;
   margin-bottom: 1rem;
   letter-spacing: 3px;
-  opacity: .65;
+  opacity: .75;
   font-weight: 100;
 }
 
 .home__img-container{
-  width: 100%;
-  max-width: 300px;
+  width: 90%;
+  max-width: 290px;
   max-height: 420px;
   position: relative;
 }
@@ -424,6 +361,50 @@
 .home__about-btn:hover{
   opacity: .5;
 }
+
+.home__planning-container{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 400px;
+}
+
+.planning__left{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(223, 184, 114);
+}
+
+.planning__mid{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  /* background-color: beige; */
+}
+
+.planning__right{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(223, 184, 114);
+}
+
+.planning__
 
 .home__flex-container{
   background-color: rgb(240, 200, 180, .1);
@@ -766,9 +747,7 @@
     bottom: 3.5rem;
   }
 
-  .home__about-description{
-    bottom: -2.5rem;
-  }
+
 }
 
 /* xs */
@@ -890,14 +869,17 @@
     bottom: 3.5rem;
   }
 
-  .home__about-description{
-    bottom: -2.5rem;
-  }
-
   .home__about-text{
     width: 360px;
     max-width: 360px; 
     }
+
+  .home__img-container{
+    width: 100%;
+    max-width: 300px;
+    max-height: 420px;
+    position: relative;
+  }  
 
   .home__services-quote-text{
     width: 453px;
@@ -1241,7 +1223,7 @@
 
   .home__about-description{
     width: 450px;
-    height: 505px;
+    height: 560px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -1252,19 +1234,24 @@
     text-align: justify;
   }
 
-  .home__about-text{
+  .home__about-sub-title{
+    font-size: .85rem;
     margin-bottom: 1rem;
-    font-size: 13px;
-    font-family: Balerno;
-    letter-spacing: 1px;
-    width: 300px;
-    max-width: 300px; 
+    letter-spacing: 3px;
+    opacity: .75;
+    font-weight: 100;
+  }
+
+  .home__about-text{
+    font-size: 18px;
+    width: 385px;
+    max-width: 460px; 
     }
 
   .home__about-btn{
     font-family: Custom;
     position: relative;
-    font-size: 3rem;
+    font-size: 3.8rem;
     font-weight: 100;
     right: 0rem;
     left: 0;
