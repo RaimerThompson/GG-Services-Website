@@ -392,6 +392,7 @@
   right: 0;
   width: 400px;
   height: 400px;
+  z-index: 3;
   /* background-color: beige; */
 }
 
@@ -404,7 +405,29 @@
   background-color: rgb(223, 184, 114);
 }
 
-.planning__
+.planning__title{
+  font-family: Camron;
+  font-size: .8rem;
+}
+
+.planning__upper{
+  font-family: A;
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.planning__italic{
+  font-family: Balerno;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.planning__btn{
+  width: 200px;
+  margin: 0 auto;
+}
 
 .home__flex-container{
   background-color: rgb(240, 200, 180, .1);
