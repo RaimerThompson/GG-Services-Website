@@ -585,10 +585,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   position: relative;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
 }
 
 
