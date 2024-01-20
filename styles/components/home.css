@@ -656,17 +656,17 @@
   margin: 0 auto;
   /* padding-bottom: 5.5rem; */
   /* padding-top: 0rem; */
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
 
 .home__contact-text{
   font-family: Balerno;
-  font-size: 1.25rem;
+  font-size: .75rem;
   /* margin: 4rem 0; */
   font-weight: 400;
   /* opacity: .55;s */
-  letter-spacing: 10px;
-  line-height: 3rem;
+  letter-spacing: 8px;
+  line-height: 1.75rem;
   text-transform: uppercase;
   position: absolute;
   left: 0;
@@ -1048,6 +1048,29 @@
     justify-content: space-evenly;
     gap: 10px;
     position: relative;
+  }
+
+  .home__contact-text{
+    font-family: Balerno;
+    font-size: .9rem;
+    padding: .25rem;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 400;
+    /* opacity: .55;s */
+    letter-spacing: 8px;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    /* color: white; */
+    background-color: rgba(247, 247, 247, 0.8);
+    border: none;
+    /* margin-bottom: 4rem; */
   }
 
   .contact__img{
@@ -1509,12 +1532,13 @@
 
   .home__contact-text{
     font-family: Balerno;
-    font-size: 1.5rem;
-    /* margin: 4rem 0; */
+    font-size: .8rem;
+    margin: 0 auto;
+    padding: 1rem;
     font-weight: 400;
     /* opacity: .55;s */
-    letter-spacing: 10px;
-    line-height: 3rem;
+    letter-spacing: 6px;
+    line-height: 2rem;
     text-transform: uppercase;
     position: absolute;
     left: 0;
