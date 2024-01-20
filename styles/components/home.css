@@ -591,11 +591,11 @@
   
 }
 
-@media (pointer: coarse) {
+/* @media (pointer: coarse) {
 	.rollover{
 		background-attachment: scroll !important;
 	} 
-}
+} */
 
 
 .home__modal{

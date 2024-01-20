@@ -52,7 +52,7 @@
   position: relative;
   bottom: -2rem;
   background: url(/images/62.jpeg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
   max-width: 2624px;
@@ -484,7 +484,7 @@ border-radius: 2px;
     position: relative;
     bottom: -2rem;
     background: url(/images/62.jpeg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
     max-width: 2654px;
