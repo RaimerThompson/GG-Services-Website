@@ -662,22 +662,19 @@
 .home__contact-text{
   font-family: Balerno;
   font-size: .75rem;
-  /* margin: 4rem 0; */
   font-weight: 400;
-  /* opacity: .55;s */
   letter-spacing: 8px;
   line-height: 1.75rem;
   text-transform: uppercase;
   position: absolute;
+  color: black;
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
-  /* color: white; */
-  background-color: rgba(247, 247, 247, 0.8);
+  background-color: rgba(247, 247, 247, 0.85);
   border: none;
-  /* margin-bottom: 4rem; */
 }
 
 .contact__image-container{
@@ -850,8 +847,8 @@
   }
   
   .home__sub-text{
-    font-size: 1.3rem;
-    max-width: 648px;
+    font-size: 1rem;
+    /* max-width: 648px; */
     letter-spacing: 4px;
   }
 
@@ -1057,7 +1054,6 @@
     width: fit-content;
     margin: 0 auto;
     font-weight: 400;
-    /* opacity: .55;s */
     letter-spacing: 8px;
     line-height: 1.6rem;
     text-transform: uppercase;
@@ -1067,10 +1063,9 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 3;
-    /* color: white; */
-    background-color: rgba(247, 247, 247, 0.8);
+    color: black;
+    background-color: rgba(247, 247, 247, 0.85);
     border: none;
-    /* margin-bottom: 4rem; */
   }
 
   .contact__img{
@@ -1108,8 +1103,8 @@
   }
 
   .home__sub-text{
-    font-size: 1.65rem;
-    max-width: 748px;
+    font-size: 1.15rem;
+    /* max-width: 748px; */
     letter-spacing: 10px;
   }
 
@@ -1260,7 +1255,8 @@
   .span__extra{
     font-family: Custom;
     letter-spacing: 2px;
-    font-size: 140px;
+    font-size: 132px;
+    opacity: .85;
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
@@ -1271,8 +1267,8 @@
   
   .home__sub-text{
     font-family: A;
-    font-size: 1.95rem;
-    max-width: 828px;
+    font-size: 1.2rem;
+    max-width: 678px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
@@ -1536,7 +1532,6 @@
     margin: 0 auto;
     padding: 1rem;
     font-weight: 400;
-    /* opacity: .55;s */
     letter-spacing: 6px;
     line-height: 2rem;
     text-transform: uppercase;
@@ -1546,10 +1541,9 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 3;
-    /* color: white; */
-    background-color: rgba(247, 247, 247, 0.8);
+    color: black;
+    background-color: rgba(247, 247, 247, 0.85);
     border: none;
-    /* margin-bottom: 4rem; */
   }
 
   .contact__image-container{
@@ -1594,7 +1588,7 @@
   .span__extra{
     font-family: Custom;
     letter-spacing: 2px;
-    font-size: 140px;
+    font-size: 132px;
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
@@ -1605,8 +1599,8 @@
   
   .home__sub-text{
     font-family: A;
-    font-size: 2.25rem;
-    max-width: 1228px;
+    font-size: 1.35rem;
+    /* max-width: 1228px; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
@@ -1628,74 +1622,25 @@
     /* border: 2px solid red; */
     margin-bottom: 2rem;
   }
-
-  .home__gallery-container{
-    /* border: 2px solid red; */
-    position: relative;
-    /* mobile */
-    /* height: 720px; */
-    /* desktop */
-    height: 880px;
-    /* max-height: 800px; */
-    max-width: 860px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-  }
-  
-  .home__gallery-image{
+  .home__contact-text{
+    font-family: Balerno;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 7px;
+    line-height: 2rem;
+    text-transform: uppercase;
     position: absolute;
-    border-radius: 2px;
-    left: -3%;
-    /* top: 4rem; */
-    /* mobile */
-    /* max-width: 360px; */
-    /* desktop */
-    max-width: 460px;
-    /* left: 5%;  */
-    top: 2rem;
-  }
-  .home__gallery-image3{
-    position: absolute;
-    border-radius: 2px;
-    right: 0;
-    top: 0;
-    /* mobile */
-    /* max-width: 240px; */
-    /* desktop */
-    max-width: 300px;
-    right: 5%;
-    top: -3%;
-  }
-  
-  
-  
-  .home__gallery-image2{
-    position: absolute;
-    border-radius: 2px;
     left: 0;
-    bottom: 0;
-    /* mobile */
-    /* max-width: 240px; */
-    /* desktop */
-    max-width: 300px;
-    left: 5%;
-    bottom: -3%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    background-color: rgba(247, 247, 247, 0.85);
+    border: none;
   }
-  .home__gallery-image4{
-    position: absolute;
-    border-radius: 2px;
-    right: -3%;
-    /* bottom: 4rem; */
-      /* mobile */
-    /* max-width: 360px; */
-    /* desktop */
-    max-width: 460px; 
-    /* right: 5%; */
-    bottom: 3.5rem;
-  }
-
-
 }
 
 /* xL */
