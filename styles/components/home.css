@@ -272,7 +272,7 @@
 
 .home__about-description{
   height: 510px;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -13,6 +13,7 @@
   max-width: 1524px;
   background-color: rgb(240, 200, 180, .1);
   margin-top: 4rem;
+  position: relative;
 }
 
 .footer__copyright{
@@ -33,6 +34,36 @@
   font-family: 'Libre Baskerville', sans-serif;
 }
 
+.footer__back{
+  font-family: Camron;
+  position: absolute;
+  bottom: .25rem;
+  right: .25rem;
+  font-size: 6px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.footer__back::after{
+  content: '^';
+  /* font-family: Camron; */
+  position: absolute;
+  bottom: .5rem;
+  right: 1.65rem;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.footer__back:hover{
+  opacity: .95;
+  color: rgb(129, 113, 98);
+}
+
+.footer__back a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /* xs */
 @media (min-width: 325px) {
   .footer__copyright{
@@ -51,6 +82,25 @@
 
   .footer__credit{
     font-size: 7px;
+  }
+
+  .footer__back{
+    font-family: Camron;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 8px;
+    font-weight: 900;
+  }
+  
+  .footer__back::after{
+    content: '^';
+    /* font-family: Camron; */
+    position: absolute;
+    bottom: .75rem;
+    right: 2rem;
+    font-size: 12px;
+    font-weight: 900;
   }
 }
 
