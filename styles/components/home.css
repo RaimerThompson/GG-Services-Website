@@ -139,7 +139,7 @@
 .span__extra{
   font-family: Custom;
   letter-spacing: 2px;
-  font-size: 70px;
+  font-size: 60px;
   text-transform: lowercase;
   line-height: 50px;
   /* padding-right: 5px; */
@@ -150,7 +150,7 @@
 
 .home__sub-text{
   font-family: A;
-  font-size: .8rem;
+  font-size: .7rem;
   max-width: 448px;
   margin-left: auto;
   margin-right: auto;
@@ -847,9 +847,9 @@
   }
   
   .home__sub-text{
-    font-size: 1rem;
+    font-size: .9rem;
     /* max-width: 648px; */
-    letter-spacing: 4px;
+    letter-spacing: 5px;
   }
 
   .span__extra{
@@ -1105,7 +1105,7 @@
   .home__sub-text{
     font-size: 1.15rem;
     /* max-width: 748px; */
-    letter-spacing: 10px;
+    letter-spacing: 8px;
   }
 
   .home__intro-gallery{
@@ -1256,7 +1256,7 @@
     font-family: Custom;
     letter-spacing: 2px;
     font-size: 132px;
-    opacity: .85;
+    opacity: .8;
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
@@ -1272,11 +1272,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
-    margin-top: 1rem;
     font-weight: 100;
     opacity: .6;
     line-height: 86px;
-    letter-spacing: 13px;
+    letter-spacing: 8px;
     text-transform: uppercase;
     position: relative;
     /* top: -3.5rem; */
@@ -1608,7 +1607,7 @@
     font-weight: 100;
     opacity: .6;
     line-height: 86px;
-    letter-spacing: 13px;
+    letter-spacing: 8px;
     text-transform: uppercase;
     position: relative;
     /* top: -3.5rem; */
