@@ -156,7 +156,7 @@
   margin-right: auto;
   margin-bottom: 3rem;
   font-weight: 100;
-  opacity: .75;
+  /* opacity: .75; */
   line-height: 60px;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -208,7 +208,7 @@
 .home__sub-description{
   font-size: 13px;
   font-family: 'Libre Baskerville', sans-serif;
-  opacity: .8;
+  /* opacity: .8; */
   line-height: 28px;
   letter-spacing: .65px;
   max-width: 920px;
@@ -291,7 +291,7 @@
   font-size: 2.2rem;
   font-family: Camron;
   letter-spacing: .15em;
-  opacity: .6;
+  opacity: .9;
   font-weight: 100;
   width: 250px;
   }
@@ -310,7 +310,7 @@
   margin-bottom: 1rem;
   font-size: 13px;
   font-family: 'Libre Baskerville', sans-serif;
-  opacity: .85;
+  /* opacity: .85; */
   line-height: 23px;
   letter-spacing: .65px;
   width: 300px;
@@ -323,7 +323,7 @@
   font-size: .725rem;
   margin-bottom: 1rem;
   letter-spacing: 3px;
-  opacity: .75;
+  /* opacity: .75; */
   font-weight: 100;
 }
 
@@ -507,7 +507,7 @@
   /* width: 453px; */
   font-size: 12px;
   font-family: 'Libre Baskerville', sans-serif;
-  opacity: .75;
+  /* opacity: .75; */
   line-height: 23px;
   letter-spacing: .65px;
     /* Mobile */
@@ -537,7 +537,7 @@
 }
 
 .home__services-quote-name{
-  opacity: .5;
+  /* opacity: .5; */
   /* color: rgb(95, 45, 20); */
   color: black;
 }
@@ -618,7 +618,7 @@
 
 .home__modal p{
   letter-spacing: 2px;
-  opacity: .85;
+  /* opacity: .85; */
   line-height: 2rem;
   font-family: Balerno;
   /* margin-top: -2rem; */
@@ -975,7 +975,7 @@
 
   .home__modal p{
     letter-spacing: 2px;
-    opacity: .85;
+    /* opacity: .85; */
     line-height: 2rem;
     font-family: Balerno;
     margin-top: -2.5rem;
@@ -1199,7 +1199,7 @@
     font-family: Custom;
     letter-spacing: 2px;
     font-size: 132px;
-    opacity: .85;
+    /* opacity: .85; */
     text-transform: lowercase;
     line-height: 50px;
     /* padding-right: 5px; */
@@ -1216,7 +1216,7 @@
     margin-right: auto;
     margin-bottom: 3rem;
     font-weight: 100;
-    opacity: .75;
+    /* opacity: .75; */
     line-height: 86px;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -1279,7 +1279,7 @@
     font-size: .85rem;
     margin-bottom: 1rem;
     letter-spacing: 3px;
-    opacity: .75;
+    /* opacity: .75; */
     font-weight: 100;
   }
 
@@ -1373,7 +1373,7 @@
     width: 453px;
     font-size: 12px;
     font-family: 'Libre Baskerville', sans-serif;
-    opacity: .75;
+    /* opacity: .75; */
     line-height: 23px;
     letter-spacing: .65px;
       /* Mobile */
