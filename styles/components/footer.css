@@ -1,7 +1,8 @@
 .footer{
   max-width: 2224px;
   background-color: rgb(240, 200, 180, .1);
-  height: 200px;
+  height: 100px;
+  margin-top: 4rem;
   position: relative;
 }
 
@@ -10,9 +11,8 @@
 }
 
 .copyright{
-  max-width: 1524px;
+  max-width: 2524px;
   background-color: rgb(240, 200, 180, .1);
-  margin-top: 4rem;
   position: relative;
 }
 
@@ -26,7 +26,7 @@
   /* width: 95%; */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8px;
+  /* margin-top: 8px; */
   padding: 1.5rem 0;
   letter-spacing: 1.5px;
   font-size: 6.25px;
