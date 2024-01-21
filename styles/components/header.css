@@ -72,7 +72,7 @@ ul li a.active{
 
 .hamburger__btn{
   width: 30px;
-  fill: rgb(95, 45, 20);
+  fill: black;
   border-radius: 2px;
   border: none;
   position: relative;
