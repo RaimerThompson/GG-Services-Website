@@ -64,7 +64,7 @@
 
 .title__logo{
   font-family: A;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   letter-spacing: 6px;
   font-weight: 100;
   text-transform: uppercase;
@@ -711,7 +711,7 @@
 
   .title__logo{
     font-family: A;
-    font-size: 1.37rem;
+    font-size: 1.55rem;
     letter-spacing: 6px;
     font-weight: 100;
     margin-bottom: 4px;
@@ -823,8 +823,34 @@
     height: 137px;
     object-fit: cover;
   }
+}
 
+/* xs */
+@media (min-width: 400px) {
+  
+  .title__logo{
+    font-family: A;
+    font-size: 1.8rem;
+    letter-spacing: 6px;
+    font-weight: 100;
+    margin-bottom: 4px;
 
+  }
+  
+  .title__sub-logo{
+    font-family:  A;
+    font-size: .65rem;
+    letter-spacing: 5px;
+    margin-bottom: 4px;
+
+  }
+
+  .title__sub-bot{
+    font-family: Camron;
+    font-size: .65rem;
+    font-weight: 100;
+    margin-top: .15rem;
+  }
 }
 
 /* xs */
