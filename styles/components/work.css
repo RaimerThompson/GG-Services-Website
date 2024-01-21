@@ -51,7 +51,7 @@
 }
 
 .work__gallery{
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 /* .work__gallery{
@@ -98,19 +98,19 @@
 }
 .work__photo:nth-child(5){
   grid-column-start: span 2;
-  grid-row-start: span 2;
+  grid-row-start: span 3;
 }
 .work__photo:nth-child(6){
   grid-column-start: span 2;
   grid-row-start: span 1;
 }
 .work__photo:nth-child(7){
-  grid-column-start: span 2;
+  grid-column-start: span 1;
   grid-row-start: span 1;
 }
 .work__photo:nth-child(8){
   grid-column-start: span 2;
-  grid-row-start: span 1;
+  grid-row-start: span 2;
 }
 
 
