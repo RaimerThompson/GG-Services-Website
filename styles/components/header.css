@@ -11,15 +11,9 @@ ul li a{
   transition: color .4s ease-in-out;
 }
 
-ul li a:hover{
-
-/* color: rgb(254, 254, 254); */
-opacity: .6;
+.header__link a:hover{
+  opacity: .6;
 }
-
-/* ul li a:active{
-  opacity: .9;
-} */
 
 ul li a.active{
   color: white;
@@ -48,7 +42,7 @@ ul li a.active{
 }
 
 .header__logo:hover{
-  color: inherit;
+  color: red;
 }
 
 .header__logo{
@@ -61,14 +55,6 @@ ul li a.active{
   top: -3px;
   left: -20px;
 }
-
-/* .header__logo::after{
-  content: '';
-  border: 1px solid rgb(95, 45, 20, .3);
-  left: -2.2rem;
-  position: relative;
-  transition: border .4s ease-in-out;
-} */
 
 #nav{
   display: flex;
@@ -171,22 +157,16 @@ ul li a.active{
 /* @media (min-width: 640px) {} */
 
 /* md */
-@media (min-width: 768px) {
-
-}
+/* @media (min-width: 768px) {} */
 
 /* Lg */
-@media (min-width: 1024px) {}
+/* @media (min-width: 1024px) {} */
 
 
 /* xL */
-@media (min-width: 1288px) {
-
-}
+/* @media (min-width: 1288px) {} */
 
 /* 2xL */
-@media (min-width: 1536px) {
-
-}  
+/* @media (min-width: 1536px) {}   */
 
 
