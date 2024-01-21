@@ -44,46 +44,38 @@
 }
 
 .services__banner{
-  margin: auto;
-  padding: 5rem 0;
-  /* height: 100vh; */
-  height: 80vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.services__banner::before {    
-  content: "";
-  background-image: url(/images/400.jpg);
-  background-size: cover;
-  background-position: center;
-  /* background-position: bottom left; */
-  /* background-position: left 0px bottom 0px; */
-
-  position: absolute;
-  background-repeat: no-repeat;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  filter: grayscale(100%);
-  /* opacity: 0.75; */
-}
-
-.services__title{
-  margin-bottom: 2rem;
   /* color: rgb(95, 45, 20, .8); */
-  color: white;
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
   font-family: Custom;
   font-size: 6.5rem;
   font-weight: 100;
   letter-spacing: 1px;
   position: relative;
-  /* bottom: -1.5rem; */
-  bottom: 5rem;
+  bottom: -2rem;
+  background: url(/images/400.jpg);
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  max-width: 2624px;
+  height: 80vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(100%);
+  
+}
+
+.services__title{
+  /* color: rgb(95, 45, 20, .8); */
+  text-align: center;
+  font-family: Custom;
+  font-size: 7rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  color: white;
 }
 
 .services__sub-title{
@@ -122,7 +114,7 @@ h2{
 
 h4{
   margin-bottom: 1rem;
-  opacity: .5;
+  opacity: .75;
   font-weight: 300;
   font-size: 1.3rem;
 }
@@ -157,10 +149,10 @@ h4{
 
 .services__quote{
   font-family: Custom; 
-  font-size: 6rem; 
+  font-size: 4rem; 
   font-style: italic;
   color:rgb(18, 7, 2);
-  line-height: 4rem;
+  line-height: .8;
   /* width: 731px; */
   /* Mobile */
   width: 299px;
@@ -275,7 +267,7 @@ font-size: 14px;
   font-size: 4rem; 
   font-style: italic;
   color:rgb(18, 7, 2);
-  line-height: 4rem;
+  line-height: .8;
   text-align: center;
   /* width: 731px; */
   /* Mobile */
@@ -489,7 +481,7 @@ position: relative;
 .banner__text2{
   text-align: center;
   font-family: Custom;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: .85;
   color: rgb(18, 7, 2);
   opacity: .55;
@@ -548,15 +540,17 @@ position: relative;
   margin-top: 0;
 }
 
+/*sm mobile*/
+@media (min-width: 325px){
+  .services__title{
+    font-size: 7.5rem;
+  }
+}
 
 
 /* xs */
 @media (min-width: 475px) {
-  .services__title{
-    font-size: 9rem;
-    bottom: 5rem;
-  }
-
+ 
   .services__sub-text{
     font-size: 1.25rem;
   }
@@ -675,46 +669,41 @@ position: relative;
     /* padding: 4rem 0; */
   }
   
-  .services__banner{
-    margin: auto;
-    padding: 5rem 0;
-    height: 80vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  
-  .services__banner::before {    
-    content: "";
-    background-image: url(/images/400.jpg);
-    background-size: cover;
-    background-position: center;
-    /* background-position: bottom left; */
-    /* background-position: left 0px bottom 0px; */
-  
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-  }
-  
-  .services__title{
-    margin-bottom: 2rem;
+  .services_banner{
     /* color: rgb(95, 45, 20, .8); */
-    color: white;
+    color: rgba(0, 0, 0, 0.8);
     text-align: center;
     font-family: Custom;
-    font-size: 9rem;
+    font-size: 6.5rem;
     font-weight: 100;
     letter-spacing: 1px;
     position: relative;
-    /* bottom: -1.5rem; */
-    bottom: 5rem;
+    bottom: -2rem;
+    background: url(/images/400.jpeg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    max-width: 2624px;
+    height: 80vh;
+    top: 0;
+    opacity: 1;
+    filter: grayscale(100%);
+    
   }
   
+  .services__title{
+    /* color: rgb(95, 45, 20, .8); */
+    text-align: center;
+    font-family: Custom;
+    font-size: 8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+  }
+
   .services__sub-title{
     margin-bottom: 1rem;
     text-align: center;
@@ -750,7 +739,7 @@ position: relative;
   
   h4{
     margin-bottom: 1rem;
-    opacity: .5;
+    opacity: .75;
     font-weight: 300;
     font-size: 1.3rem;
   }
@@ -785,10 +774,10 @@ position: relative;
   
   .services__quote{
     font-family: Custom; 
-    font-size: 6rem; 
+    font-size: 4rem; 
     font-style: italic;
     color:rgb(18, 7, 2);
-    line-height: 4rem;
+    line-height: .8;
     width: 731px;
     /* Mobile */
     /* width: 299px; */
@@ -1119,7 +1108,7 @@ position: relative;
   .banner__text2{
     text-align: center;
     font-family: Custom;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: .85;
     color: rgb(18, 7, 2);
     opacity: .55;
