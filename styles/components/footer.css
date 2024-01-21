@@ -1,9 +1,27 @@
 .footer{
   max-width: 2224px;
   background-color: rgb(240, 200, 180, .1);
-  height: 100px;
+  height: 160px;
   margin-top: 4rem;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0 2rem;
+  border: 2px dotted red;
+}
+
+.footer div{
+  background-color: aqua;
+}
+
+.footer ul li{
+  list-style: none;
+  color: black;
+}
+
+.footer ul li a{
+  color: black;
 }
 
 .footer__credit{

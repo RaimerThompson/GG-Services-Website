@@ -227,12 +227,16 @@ background-color: rgba(0,0,0, .5);
 
 .about__text{
   margin-bottom: 1rem;
-  font-size: 12px;
-  font-family: Balerno;
+  font-size: 13px;
+  font-family: 'Libre Baskerville', sans-serif;
+  opacity: .9;
+  line-height: 23px;
+  letter-spacing: .65px;
   width: 300px;
   max-width: 300px;
   font-weight: 100;
   padding: 0 1rem;
+  text-align: center;
   /* border: 1px dotted blue; */
 }
 
@@ -373,10 +377,12 @@ border-radius: 2px;
 
   .about__text{
     margin-bottom: 1rem;
-    font-size: 12px;
+    font-size: 13px;
+    font-family: 'Libre Baskerville', sans-serif;
+    opacity: .85;
+    line-height: 23px;
     letter-spacing: 1px;
     width: 400px;
-    font-family: Balerno;
     max-width: 400px;
     padding: 0 1rem;
     /* border: 1px dotted blue; */
@@ -658,11 +664,14 @@ border-radius: 2px;
   .about__text{
     margin-bottom: 1rem;
     font-size: 13px;
+    font-family: 'Libre Baskerville', sans-serif;
+    opacity: .85;
+    line-height: 23px;
     letter-spacing: 1px;
-    font-family: Balerno;
     width: 300px;
     max-width: 300px;
     padding: 0;
+    text-align: start;
     /* border: 1px dotted blue; */
   }
   
