@@ -1,27 +1,101 @@
 .footer{
-  max-width: 2224px;
+  max-width: 2524px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(240, 200, 180, .1);
   height: 160px;
-  margin-top: 4rem;
+  margin-top: 4rem; 
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 10px;
-  padding: 0 2rem;
-  border: 2px dotted red;
 }
 
-.footer div{
-  background-color: aqua;
+.footer__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__logo{
+  font-family: A;
+  letter-spacing: 8px;
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+
+.footer__sub-logo{
+  font-family: A;
+  font-size: .8rem;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.footer__sub-bot{
+  font-family: Camron;
+  font-size: .75rem;
+  font-weight: 100;
 }
 
 .footer ul li{
   list-style: none;
   color: black;
+ 
 }
 
 .footer ul li a{
   color: black;
+  letter-spacing: 1.25px;
+  font-weight: 100;
+  font-size: 12px;
+  opacity: .85;
+}
+
+.footer ul li a:hover{
+ color: rgb(129, 113, 98);
+}
+
+.footer__left ul{
+  margin-top: 2rem;
+  position: relative;
+  font-family: 'Libre Baskerville', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__mid{
+  margin-top: 3rem;
+  position: relative;
+}
+.footer__right ul{
+  margin-top: 2rem;
+  position: relative;
+  font-family: 'Libre Baskerville', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socials__icons{
+  position: relative;
+  right: .6rem;
+}
+
+.socials__icons i{
+ cursor: pointer;
+}
+
+.socials__icons i:hover{
+ color: rgb(129, 113, 98);
+}
+
+.fa-pinterest{
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .footer__credit{
@@ -41,10 +115,8 @@
   justify-content: center;
   align-items: center;
   gap: .75rem;
-  /* width: 95%; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 8px; */
   padding: 1.5rem 0;
   letter-spacing: 1.5px;
   font-size: 6.25px;
