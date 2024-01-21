@@ -4,6 +4,7 @@
 
 .scroll__logo{
   color: white;
+  
 }
 
 .scroll__logo:hover{
@@ -55,10 +56,11 @@
 
 .services__banner::before {    
   content: "";
-  background-image: url(/images/17.jpg);
+  background-image: url(/images/400.jpg);
   background-size: cover;
+  background-position: center;
   /* background-position: bottom left; */
-  background-position: left 0px bottom 0px;
+  /* background-position: left 0px bottom 0px; */
 
   position: absolute;
   background-repeat: no-repeat;
@@ -66,7 +68,8 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  filter: grayscale(100%);
+  /* opacity: 0.75; */
 }
 
 .services__title{
@@ -75,12 +78,12 @@
   color: white;
   text-align: center;
   font-family: Custom;
-  font-size: 7.5rem;
+  font-size: 6.5rem;
   font-weight: 100;
   letter-spacing: 1px;
   position: relative;
-  bottom: -1.5rem;
-  /* bottom: -5rem; */
+  /* bottom: -1.5rem; */
+  bottom: 5rem;
 }
 
 .services__sub-title{
@@ -269,7 +272,7 @@ font-size: 14px;
 
 .quote__right{
   font-family: Custom; 
-  font-size: 6rem; 
+  font-size: 4rem; 
   font-style: italic;
   color:rgb(18, 7, 2);
   line-height: 4rem;
@@ -550,8 +553,8 @@ position: relative;
 /* xs */
 @media (min-width: 475px) {
   .services__title{
-    font-size: 11rem;
-    bottom: -1.5rem;
+    font-size: 9rem;
+    bottom: 5rem;
   }
 
   .services__sub-text{
@@ -684,10 +687,11 @@ position: relative;
   
   .services__banner::before {    
     content: "";
-    background-image: url(/images/17.jpg);
+    background-image: url(/images/400.jpg);
     background-size: cover;
+    background-position: center;
     /* background-position: bottom left; */
-    background-position: left 0px bottom 0px;
+    /* background-position: left 0px bottom 0px; */
   
     position: absolute;
     background-repeat: no-repeat;
@@ -695,7 +699,6 @@ position: relative;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
   }
   
   .services__title{
@@ -704,12 +707,12 @@ position: relative;
     color: white;
     text-align: center;
     font-family: Custom;
-    font-size: 11rem;
+    font-size: 9rem;
     font-weight: 100;
     letter-spacing: 1px;
     position: relative;
-    bottom: -1.5rem;
-    /* bottom: -5rem; */
+    /* bottom: -1.5rem; */
+    bottom: 5rem;
   }
   
   .services__sub-title{
