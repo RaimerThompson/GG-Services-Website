@@ -101,7 +101,17 @@
 }
 
 .footer__credit{
-  font-size: 5px;
+  font-size: 6px;
+}
+
+.footer__credit a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.footer__credit a:hover{
+  opacity: .6;
 }
 
 .copyright{
@@ -229,7 +239,7 @@
   }
 
   .footer__credit{
-    font-size: 6.5px;
+    font-size: 7.5px;
   }
 
   .footer__back{
