@@ -85,11 +85,12 @@
   right: .6rem;
 }
 
-.socials__icons i{
+.socials__icons a{
  cursor: pointer;
+ color: inherit;
 }
 
-.socials__icons i:hover{
+.socials__icons a:hover{
  color: rgb(129, 113, 98);
 }
 
