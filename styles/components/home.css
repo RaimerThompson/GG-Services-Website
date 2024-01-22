@@ -373,36 +373,63 @@
   height: 500px;
 }
 
-.planning__left{
+/* .planning__left{
   position: absolute;
   left: -200px;
   bottom: 170px;
   width: 500px;
   height: 100px;
-  /* background-color: rgb(223, 184, 114); */
+  background-color: rgb(223, 184, 114);
   transform: rotate(-90deg);
   font-family: Camron;
   font-size: 2rem;
   letter-spacing: 34px;
+} */
+
+.planning__left{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 299px;
+  /* background-color: rgb(223, 184, 114); */
+  font-family: Camron;
+  font-size: 1.9rem;
+  letter-spacing: 7px;
 }
+
+
+.planning__right{
+  position: absolute;
+  right: 0;
+  width: 299px;
+  top: 0;
+  /* background-color: rgb(223, 184, 114); */
+  font-family: Camron;
+  font-size: 1.9rem;
+  letter-spacing: 11px;
+}
+
+
 .ny, 
 .cart{
   font-weight: 100;
-  color: rgba(190, 190, 190, 0.125);
+  color: rgba(180, 180, 180, 0.15);
+  /* color: black; */
 }
 
-.planning__right{
+/* .planning__right{
   position: absolute;
   right: -200px;
   width: 500px;
   height: 100px;
   top: 174px;
-  /* background-color: rgb(223, 184, 114); */
+  background-color: rgb(223, 184, 114);
   transform: rotate(90deg);
   font-family: Camron;
   font-size: 2rem;
   letter-spacing: 34px;
-}
+} */
+
 
 
 .planning__mid{
@@ -869,13 +896,13 @@
     margin-top: .15rem;
   }
 
-  .planning__left{
+  /* .planning__left{
     position: absolute;
     left: -200px;
     bottom: 164px;
     width: 500px;
     height: 100px;
-    /* background-color: rgb(223, 184, 114); */
+    background-color: rgb(223, 184, 114);
     transform: rotate(-90deg);
     font-family: Camron;
     font-size: 3rem;
@@ -888,12 +915,12 @@
     width: 600px;
     height: 100px;
     top: 210px;
-    /* background-color: rgb(223, 184, 114); */
+    background-color: rgb(223, 184, 114);
     transform: rotate(90deg);
     font-family: Camron;
     font-size: 3rem;
     letter-spacing: 24px;
-  }
+  } */
 }
 
 /* xs */
