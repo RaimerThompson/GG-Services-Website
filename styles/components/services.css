@@ -197,11 +197,11 @@ h4{
 }
 
 .regular{
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
 }
 
 .reverse2{
-  margin-top: -2rem;
+  margin-top: -1rem;
 }
 
 .row__title{
@@ -561,14 +561,14 @@ position: relative;
   margin-bottom: 1rem;
   font-size: 12px;
   }
+
+  .regular{
+    margin-bottom: 4.5rem;
+  }
   
   .reverse1{
     margin-top: 6rem;
-    margin-bottom: auto;
-  }
-  
-  .regular{
-    margin-bottom: auto;
+    margin-bottom: -2rem;
   }
 
   .services__end-title{
@@ -593,9 +593,23 @@ position: relative;
     width: 440px;
   }
 
+  .bot{
+    margin-top: -7.5rem;
+  }
+
   /* .r2{
     max-width: 460px;
   } */
+
+  .reverse1{
+    margin-top: 6rem;
+    margin-bottom: 0;
+  }
+
+  .regular{
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
 
   .quote__right{
     width: 560px;
@@ -800,6 +814,11 @@ position: relative;
   .reverse1{
     margin-top: 1rem;
     flex-direction: row-reverse;
+    margin-bottom: 2rem;
+  }
+
+  .regular{
+    margin-bottom: 2rem;
   }
 
   .reverse2{
@@ -1091,11 +1110,11 @@ position: relative;
 @media (min-width: 1024px) {
     
   .reverse1{
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   
   .regular{
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
 
 }
