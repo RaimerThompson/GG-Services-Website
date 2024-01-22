@@ -193,6 +193,15 @@ h4{
 
 .reverse1{
   margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.regular{
+  margin-bottom: 2rem;
+}
+
+.reverse2{
+  margin-top: -2rem;
 }
 
 .row__title{
@@ -214,11 +223,11 @@ margin-right: auto;
 
 .row__text{
 /* color: rgba(0, 0, 0, 0.65); */
-margin-bottom: 1rem;
+margin-bottom: 2.5rem;
 font-size: 12px;
 font-family: 'Libre Baskerville', sans-serif;
 opacity: .75;
-line-height: 23px;
+/* line-height: 23px; */
 letter-spacing: .65px;
 text-align: center;
 }
@@ -255,6 +264,7 @@ text-align: center;
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 9rem;
 
 }
 
@@ -463,6 +473,18 @@ position: relative;
   height: 450px;
 }
 
+.services__end-title{
+  font-family: Balerno;
+  font-size: 1.2rem;
+  font-weight: 100;
+  opacity: .6;
+  /* color: aquamarine; */
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-bottom: -2rem;
+}
 
 /* xs */
 @media (min-width: 475px) {
@@ -495,6 +517,25 @@ position: relative;
 
   .quote__right{
     width: 420px;
+  }
+
+  
+  .row__text{
+  margin-bottom: 1rem;
+  font-size: 12px;
+  }
+  
+  .reverse1{
+    margin-top: 6rem;
+    margin-bottom: auto;
+  }
+  
+  .regular{
+    margin-bottom: auto;
+  }
+
+  .services__end-title{
+    margin-bottom: -4rem;
   }
  
 }
@@ -771,6 +812,21 @@ position: relative;
   /* .row__image{
     background-color: rgb(240, 200, 180, .1);
   } */
+
+  
+.services__end-title{
+  font-family: Balerno;
+  font-size: 1.2rem;
+  font-weight: 100;
+  opacity: .6;
+  /* color: aquamarine; */
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 0 10rem;
+}
   
   .flexed__image{
     background-color: white;
@@ -781,7 +837,7 @@ position: relative;
     justify-content: space-evenly;
     align-items: center;
     gap: 2rem;
-    padding-bottom: 4rem;
+    margin-bottom: 7rem;
   }
   
   .div__right{
@@ -986,7 +1042,17 @@ position: relative;
 }
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    
+  .reverse1{
+    margin-bottom: 6rem;
+  }
+  
+  .regular{
+    margin-bottom: 6rem;
+  }
+
+}
 
 /* xL */
 /* @media (min-width: 1288px) {} */
