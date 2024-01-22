@@ -197,7 +197,7 @@ h4{
 }
 
 .regular{
-  margin-bottom: 7rem;
+  margin-bottom: 0rem;
 }
 
 .reverse2{
@@ -563,12 +563,12 @@ position: relative;
   }
 
   .regular{
-    margin-bottom: 4.5rem;
+    margin-bottom: -2.5rem;
   }
   
   .reverse1{
     margin-top: 6rem;
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
   }
 
   .services__end-title{
@@ -594,7 +594,7 @@ position: relative;
   }
 
   .bot{
-    margin-top: -7.5rem;
+    margin-top: -4rem;
   }
 
   /* .r2{
@@ -813,16 +813,20 @@ position: relative;
 
   .reverse1{
     margin-top: 1rem;
-    flex-direction: row-reverse;
-    margin-bottom: 2rem;
+    /* flex-direction: row-reverse;
+    margin-bottom: 2rem; */
+    flex-direction: row;
+    margin-bottom: 1rem;
   }
 
   .regular{
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
   }
 
   .reverse2{
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
   }
   
   .row__title{
@@ -848,7 +852,7 @@ position: relative;
   font-size: 12px;
   font-family: 'Libre Baskerville', sans-serif;
   opacity: .75;
-  line-height: 23px;
+  line-height: 20px;
   letter-spacing: .65px;
   }
   
@@ -1104,11 +1108,18 @@ position: relative;
     height: 450px;
   }
   
+  .bot{
+    margin-top: -3rem;
+  }
 }
 
 /* Lg */
 @media (min-width: 1024px) {
     
+  .row__text{
+    line-height: 23px;
+  }
+
   .reverse1{
     margin-bottom: 2rem;
   }
