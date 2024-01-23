@@ -452,7 +452,8 @@
 }
 
 .plan{
-  margin-bottom: 3px;
+  margin-bottom: 2px;
+  color: red;
 }
 
 .planning__italic{
@@ -1201,7 +1202,7 @@
 }
 
 .plan{
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .planning__italic{
