@@ -4,7 +4,7 @@
   margin-right: auto;
   background-color: rgb(240, 200, 180, .1);
   height: 160px;
-  margin-top: 4rem; 
+  /* margin-top: 4rem;  */
   position: relative;
   display: flex;
   justify-content: space-around;
@@ -174,12 +174,12 @@
     letter-spacing: 5px;
     font-weight: 100;
     margin-bottom: 2px;
-    font-size: 14px;
+    font-size: 15px;
   }
   
   .footer__sub-logo{
     font-family: Mel;
-    font-size: .4rem;
+    font-size: .5rem;
     letter-spacing: 3px;
     font-weight: 100;
     text-transform: uppercase;
@@ -201,7 +201,7 @@
     letter-spacing: 8px;
     font-weight: 100;
     margin-bottom: 2px;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
   }
   
   .footer__sub-logo{
@@ -270,6 +270,23 @@
     width: 80%;
     font-size: 8.5px;
   }
+
+  .footer__logo{
+    font-family: Mel;
+    letter-spacing: 8px;
+    font-weight: 100;
+    margin-bottom: 2px;
+    font-size: 1.9rem;
+  }
+  
+  .footer__sub-logo{
+    font-family: Mel;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
 }
 
 /* md */
@@ -283,4 +300,3 @@
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */
-
