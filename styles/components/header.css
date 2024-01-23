@@ -38,7 +38,7 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: 'Melanic' !important;
+  font-family: Mel;
 }
 
 .header__logo:hover{
@@ -50,7 +50,7 @@ ul li a.active{
   font-weight: 100;
   color: black;
   letter-spacing: 6px;
-  font-family: A;
+  font-family: Mel;
   position: relative;
   top: -3px;
   left: -20px;

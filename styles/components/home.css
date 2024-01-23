@@ -1077,13 +1077,13 @@
 @media (min-width: 640px) {
 
   .title__logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 3.25rem;
     letter-spacing: 12px;
   }
   
   .title__sub-logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 1.3rem;
     letter-spacing: 9px;
   }
@@ -1233,13 +1233,13 @@
 @media (min-width: 768px) {
 
   .title__logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 4.25rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 1.5rem;
     letter-spacing: 10px;
     margin-bottom: 8px;
@@ -1570,13 +1570,13 @@
 @media (min-width: 1024px) {
 
   .title__logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: 6rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: 2rem;
     letter-spacing: 12px;
   }
@@ -1677,13 +1677,13 @@
 @media (min-width: 1288px) {
 
   .title__logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: 7.85rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: 2.25rem;
     letter-spacing: 14px;
   }
