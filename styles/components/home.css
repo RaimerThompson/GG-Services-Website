@@ -63,7 +63,7 @@
 }
 
 .title__logo{
-  font-family: A;
+  font-family: Mel;
   font-size: 1.3rem;
   letter-spacing: 6px;
   font-weight: 100;
@@ -72,7 +72,7 @@
 }
 
 .title__sub-logo{
-  font-family: A;
+  font-family: Mel;
   font-size: .5rem;
   letter-spacing: 4px;
   font-weight: 100;
@@ -730,7 +730,7 @@
 @media (min-width: 320px) {
 
   .title__logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 1.55rem;
     letter-spacing: 6px;
     font-weight: 100;
@@ -739,7 +739,7 @@
   }
   
   .title__sub-logo{
-    font-family:  A;
+    font-family:  Mel;
     font-size: .55rem;
     letter-spacing: 5px;
     margin-bottom: 4px;
@@ -849,7 +849,7 @@
 @media (min-width: 400px) {
   
   .title__logo{
-    font-family: A;
+    font-family: Mel;
     font-size: 1.8rem;
     letter-spacing: 6px;
     font-weight: 100;
@@ -858,7 +858,7 @@
   }
   
   .title__sub-logo{
-    font-family:  A;
+    font-family:  Mel;
     font-size: .65rem;
     letter-spacing: 5px;
     margin-bottom: 4px;
@@ -878,13 +878,13 @@
 @media (min-width: 475px) {
 
   .title__logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: 2.2rem;
     letter-spacing: 10px;
   }
 
   .title__sub-logo{
-    font-family: A ;
+    font-family: Mel ;
     font-size: .8rem;
     letter-spacing: 8px;
   }
