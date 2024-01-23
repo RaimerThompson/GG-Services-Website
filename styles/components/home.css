@@ -451,6 +451,10 @@
   margin-bottom: -1rem;
 }
 
+.plan{
+  margin-bottom: 6px;
+}
+
 .planning__italic{
   font-family: Balerno;
   font-style: italic;
@@ -1194,6 +1198,10 @@
   font-weight: 100;
   letter-spacing: 3px;
   margin-bottom: -1rem;
+}
+
+.plan{
+  margin-bottom: 6px;
 }
 
 .planning__italic{
