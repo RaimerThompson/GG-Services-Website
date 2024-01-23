@@ -205,7 +205,8 @@ h4{
 }
 
 .row__title{
-font-family: Barleno;
+font-family: Balerno;
+letter-spacing: 4px;
 text-transform: uppercase;
 }
 
@@ -556,6 +557,9 @@ position: relative;
     width: 420px;
   }
 
+  .row__title{
+    letter-spacing: 6px;
+    }
   
   .row__text{
   margin-bottom: 1rem;
@@ -600,6 +604,11 @@ position: relative;
   /* .r2{
     max-width: 460px;
   } */
+
+    
+  .row__title{
+    letter-spacing: 2px;
+    }
 
   .reverse1{
     margin-top: 6rem;
@@ -830,7 +839,8 @@ position: relative;
   }
   
   .row__title{
-  font-family: Barleno;
+  font-family: Balerno;
+  letter-spacing: 3px;
   text-transform: uppercase;
   }
   
