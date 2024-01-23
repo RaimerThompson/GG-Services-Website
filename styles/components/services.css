@@ -616,7 +616,7 @@ position: relative;
   }
 
   .regular{
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-bottom: 1rem;
   }
 
@@ -831,6 +831,7 @@ position: relative;
   .regular{
     /* margin-bottom: 2rem; */
     margin-bottom: 1rem;
+    flex-direction: row-reverse;
   }
 
   .reverse2{
