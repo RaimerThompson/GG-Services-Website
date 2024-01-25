@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(240, 200, 180, .1);
-  height: 160px;
+  height: 140px;
   /* margin-top: 4rem;  */
   position: relative;
   display: flex;
@@ -24,12 +24,12 @@
   letter-spacing: 4px;
   font-weight: 100;
   margin-bottom: 2px;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .footer__sub-logo{
   font-family: Mel;
-  font-size: .4rem;
+  font-size: .8rem;
   letter-spacing: 2px;
   font-weight: 100;
   text-transform: uppercase;
@@ -64,7 +64,7 @@
   margin-top: 2rem;
   position: relative;
   font-family: 'Libre Baskerville', sans-serif;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 10px;
 }
@@ -76,7 +76,7 @@
   margin-top: 2rem;
   position: relative;
   font-family: 'Libre Baskerville', sans-serif;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 10px;
 }
@@ -169,7 +169,7 @@
 /* xs */
 @media (min-width: 325px) {
 
-  .footer__logo{
+  /* .footer__logo{
     font-family: Mel;
     letter-spacing: 5px;
     font-weight: 100;
@@ -181,6 +181,23 @@
     font-family: Mel;
     font-size: .5rem;
     letter-spacing: 3px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  } */
+
+  .footer__logo{
+    font-family: Mel;
+    letter-spacing: 8px;
+    font-weight: 100;
+    margin-bottom: 2px;
+    font-size: 1.25rem;
+  }
+  
+  .footer__sub-logo{
+    font-family: Mel;
+    font-size: .7rem;
+    letter-spacing: 4px;
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 4px;
@@ -196,6 +213,19 @@
 /* xs */
 @media (min-width: 475px) {
 
+  .footer{
+    max-width: 2524px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 200, 180, .1);
+    height: 160px;
+    /* margin-top: 4rem;  */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
   .footer__logo{
     font-family: Mel;
     letter-spacing: 8px;
@@ -259,6 +289,27 @@
     right: 2rem;
     font-size: 12px;
     font-weight: 900;
+  }
+
+  .footer__left ul{
+    margin-top: 2rem;
+    position: relative;
+    font-family: 'Libre Baskerville', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__mid{
+    margin-top: 3rem;
+    position: relative;
+  }
+  .footer__right ul{
+    margin-top: 2rem;
+    position: relative;
+    font-family: 'Libre Baskerville', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
