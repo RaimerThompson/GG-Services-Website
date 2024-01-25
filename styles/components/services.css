@@ -537,6 +537,43 @@ position: relative;
   padding: 3rem 2rem 2rem 2rem;
 }
 
+.services__last{
+  text-align: center;
+  background-color: rgba(255, 212, 191, 0.1);
+  padding: 4rem;
+}
+
+.last{
+  font-family: Balerno;
+  /* background-color: white; */
+  /* width: 400px; */
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 100;
+  border: 1px solid black;
+
+}
+
+.last__btn{
+  font-family: A;
+  font-weight: 600;
+  letter-spacing: 8px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 1rem;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  border: none;
+  cursor: pointer;;
+}
+
+.last__btn a{
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
 /* xs */
 @media (min-width: 475px) {
  
