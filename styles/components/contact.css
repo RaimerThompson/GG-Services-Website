@@ -383,10 +383,6 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-.copyright{
-  margin-top: 0;
-}
-
 /* xs */
 /* @media (min-width: 475px) {} */
 
@@ -780,9 +776,6 @@
     color: rgba(0, 0, 0, 0.6);
   }
 
-  .copyright{
-    margin-top: 3rem;
-  }
 }
 
 /* Lg */
