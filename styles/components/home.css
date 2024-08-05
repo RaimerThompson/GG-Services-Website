@@ -64,7 +64,7 @@
 
 .title__logo{
   font-family: Mel;
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   letter-spacing: 6px;
   font-weight: 100;
   text-transform: uppercase;
@@ -73,7 +73,7 @@
 
 .title__sub-logo{
   font-family: Mel;
-  font-size: .5rem;
+  font-size: .35rem;
   letter-spacing: 4px;
   font-weight: 100;
   text-transform: uppercase;
@@ -731,7 +731,7 @@
 
   .title__logo{
     font-family: Mel;
-    font-size: 1.55rem;
+    font-size: 1.4rem;
     letter-spacing: 6px;
     font-weight: 100;
     margin-bottom: 4px;
@@ -740,7 +740,7 @@
   
   .title__sub-logo{
     font-family:  Mel;
-    font-size: .55rem;
+    font-size: .5rem;
     letter-spacing: 5px;
     margin-bottom: 4px;
 
@@ -850,7 +850,7 @@
   
   .title__logo{
     font-family: Mel;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 6px;
     font-weight: 100;
     margin-bottom: 4px;
@@ -859,7 +859,7 @@
   
   .title__sub-logo{
     font-family:  Mel;
-    font-size: .65rem;
+    font-size: .5rem;
     letter-spacing: 5px;
     margin-bottom: 4px;
 
@@ -867,7 +867,7 @@
 
   .title__sub-bot{
     font-family: Camron;
-    font-size: .65rem;
+    font-size: .6rem;
     font-weight: 100;
     margin-top: .15rem;
   }
@@ -879,7 +879,7 @@
 
   .title__logo{
     font-family: Mel ;
-    font-size: 2.2rem;
+    font-size: 2rem;
     letter-spacing: 10px;
   }
 
@@ -1078,13 +1078,13 @@
 
   .title__logo{
     font-family: Mel;
-    font-size: 3.25rem;
+    font-size: 2.5rem;
     letter-spacing: 12px;
   }
   
   .title__sub-logo{
     font-family: Mel;
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 9px;
   }
 
@@ -1234,13 +1234,13 @@
 
   .title__logo{
     font-family: Mel;
-    font-size: 4.25rem;
+    font-size: 3.25rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
     font-family: Mel;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 10px;
     margin-bottom: 8px;
 
@@ -1571,13 +1571,13 @@
 
   .title__logo{
     font-family: Mel ;
-    font-size: 6rem;
+    font-size: 4.5rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
     font-family: Mel ;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 12px;
   }
 
@@ -1678,13 +1678,13 @@
 
   .title__logo{
     font-family: Mel ;
-    font-size: 7.85rem;
+    font-size: 6rem;
     letter-spacing: 11px;
   }
   
   .title__sub-logo{
     font-family: Mel ;
-    font-size: 2.25rem;
+    font-size: 2rem;
     letter-spacing: 14px;
   }
 
