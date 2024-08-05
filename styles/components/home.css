@@ -272,7 +272,7 @@
 }
 
 .home__about-description{
-  height: 510px;
+  height: 675px;
   /* padding: 0 1rem; */
   display: flex;
   flex-direction: column;
@@ -930,7 +930,7 @@
   }
 
   .home__about-description{
-    height: 465px;
+    height: 565px;
   }
   
   
@@ -1324,7 +1324,7 @@
 
   .home__about-description{
     width: 450px;
-    height: 560px;
+    height: 660px;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
