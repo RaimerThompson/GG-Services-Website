@@ -37,7 +37,7 @@
 
 .home{
   max-width: 2024px;
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
   /* padding: 4rem 0; */
 }
@@ -51,18 +51,19 @@
 }
 
 .home__title{
-  color: white;
-  position: absolute;
+  color: black;
+  /* position: absolute; */
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
   top: 56%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 
 .title__logo{
+  color: black;
   font-family: Mel;
   font-size: 1.05rem;
   letter-spacing: 6px;
@@ -73,8 +74,8 @@
 
 .title__sub-logo{
   font-family: Mel;
-  font-size: .35rem;
-  letter-spacing: 4px;
+  font-size: .7rem;
+    letter-spacing: 6px;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: 4px;
@@ -82,9 +83,9 @@
 
 .title__sub-bot{
   font-family: Camron;
-  font-size: .5rem;
+  font-size: .7rem;
   font-weight: 100;
-  margin-top: .25rem;
+  margin-top: .2rem;
 }
 
 .slide{
@@ -132,7 +133,7 @@
   text-align: center;
   font-weight: 100;
   /* background-color: rgba(255, 212, 191, 0.1); */
-  padding: 5rem 0;
+  padding: 5rem 0 5rem 0;
   text-align: center;
 }
 
@@ -183,7 +184,6 @@
   gap: 0;
   /* border: 2px solid red; */
   margin-bottom: 2rem;
-  margin-top: 5rem;
 }
 
 .intro__image-div{
@@ -741,17 +741,17 @@
   
   .title__sub-logo{
     font-family:  Mel;
-    font-size: .5rem;
-    letter-spacing: 5px;
+    font-size: .8rem;
+    letter-spacing: 8px;
     margin-bottom: 4px;
 
   }
 
   .title__sub-bot{
     font-family: Camron;
-    font-size: .6rem;
+    font-size: .85rem;
     font-weight: 100;
-    margin-top: .15rem;
+    margin-top: .2rem;
   }
 
   .span__extra{
@@ -860,17 +860,17 @@
   
   .title__sub-logo{
     font-family:  Mel;
-    font-size: .5rem;
-    letter-spacing: 5px;
+    font-size: .8rem;
+    letter-spacing: 8px;
     margin-bottom: 4px;
 
   }
 
   .title__sub-bot{
     font-family: Camron;
-    font-size: .6rem;
+    font-size: .85rem;
     font-weight: 100;
-    margin-top: .15rem;
+    margin-top: .2rem;
   }
 
 }
@@ -1291,8 +1291,6 @@
     gap: 1.5rem;
     /* border: 2px solid red; */
     margin-bottom: 2rem;
-    margin-top: 9rem;
-    
   }
 
   .intro__image-div{
@@ -1344,6 +1342,10 @@
     letter-spacing: 3px;
     opacity: .75;
     font-weight: 100;
+  }
+
+  .home__sub-title{
+    padding: 5rem 0 7rem 0;
   }
 
   .home__about-text{
