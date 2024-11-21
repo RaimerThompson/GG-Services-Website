@@ -107,7 +107,7 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  filter: contrast(80%);
+  filter: contrast(95%);
 }
 
 .slide.active{
@@ -183,6 +183,7 @@
   gap: 0;
   /* border: 2px solid red; */
   margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 .intro__image-div{
@@ -1290,6 +1291,8 @@
     gap: 1.5rem;
     /* border: 2px solid red; */
     margin-bottom: 2rem;
+    margin-top: 9rem;
+    
   }
 
   .intro__image-div{
