@@ -130,6 +130,10 @@
 .sl6{
   object-position: 50% 70%;
 }
+/* 
+.sl7{
+  object-position: 50% 0%;
+} */
 
 .slide.active{
   position: absolute;
