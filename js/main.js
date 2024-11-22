@@ -28,7 +28,6 @@ function nextSlide(){
     index++;
   }
   changeSlide();
-  clearInterval(timer)
 }
 
 function changeSlide(){
@@ -39,10 +38,14 @@ function changeSlide(){
   slides[index].classList.add('active');
 }
 
+function resetTimer(){
+  clearInterval(timer);
+}
+
 function autoPlay(){
   nextSlide();
 }
-let timer = setInterval(autoPlay, 500)
+let timer = setInterval(autoPlay, 4000)
 
 
 
