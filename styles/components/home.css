@@ -111,6 +111,10 @@
   filter: contrast(95%);
 }
 
+.sl2 img{
+  object-position: 60% 100%;
+}
+
 .sl3 img{
   object-position: 50% 20%;
 }
