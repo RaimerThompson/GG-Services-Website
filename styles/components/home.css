@@ -111,12 +111,24 @@
   filter: contrast(95%);
 }
 
-.sl2 img{
-  object-position: 60% 100%;
+.sl2{
+  object-position: 60% 65%;
 }
 
-.sl3 img{
+.sl3{
   object-position: 50% 20%;
+}
+
+.sl4{
+  object-position: 50% 65%;
+}
+
+.sl5{
+  object-position: 50% 0%;
+}
+
+.sl6{
+  object-position: 50% 70%;
 }
 
 .slide.active{
