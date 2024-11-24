@@ -51,19 +51,19 @@
 }
 
 .home__title{
-  color: black;
-  /* position: absolute; */
+  color: white;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
   top: 56%;
-  /* transform: translateY(-50%); */
+  transform: translateY(-50%);
 }
 
 .title__logo{
-  color: black;
+  color: white;
   font-family: Mel;
   font-size: 1.05rem;
   letter-spacing: 6px;
@@ -74,8 +74,8 @@
 
 .title__sub-logo{
   font-family: Mel;
-  font-size: .7rem;
-    letter-spacing: 6px;
+  font-size: .6rem;
+  letter-spacing: 6px;
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: 4px;
@@ -83,7 +83,7 @@
 
 .title__sub-bot{
   font-family: Camron;
-  font-size: .7rem;
+  font-size: .5rem;
   font-weight: 100;
   margin-top: .2rem;
 }
@@ -765,15 +765,15 @@
   
   .title__sub-logo{
     font-family:  Mel;
-    font-size: .8rem;
-    letter-spacing: 8px;
+    font-size: .75rem;
+    letter-spacing: 6px;
     margin-bottom: 4px;
 
   }
 
   .title__sub-bot{
     font-family: Camron;
-    font-size: .85rem;
+    font-size: .7rem;
     font-weight: 100;
     margin-top: .2rem;
   }
@@ -892,7 +892,7 @@
 
   .title__sub-bot{
     font-family: Camron;
-    font-size: .85rem;
+    font-size: .7rem;
     font-weight: 100;
     margin-top: .2rem;
   }
@@ -910,7 +910,7 @@
 
   .title__sub-logo{
     font-family: Mel ;
-    font-size: .8rem;
+    font-size: 1.25rem;
     letter-spacing: 8px;
   }
 
@@ -1109,7 +1109,7 @@
   
   .title__sub-logo{
     font-family: Mel;
-    font-size: 1rem;
+    font-size: 1.85rem;
     letter-spacing: 9px;
   }
 
@@ -1265,7 +1265,7 @@
   
   .title__sub-logo{
     font-family: Mel;
-    font-size: 1.3rem;
+    font-size: 2.4rem;
     letter-spacing: 10px;
     margin-bottom: 8px;
 
@@ -1606,7 +1606,7 @@
   
   .title__sub-logo{
     font-family: Mel ;
-    font-size: 1.5rem;
+    font-size: 3.3rem;
     letter-spacing: 12px;
   }
 
@@ -1713,7 +1713,7 @@
   
   .title__sub-logo{
     font-family: Mel ;
-    font-size: 2rem;
+    font-size: 4.2rem;
     letter-spacing: 14px;
   }
 
