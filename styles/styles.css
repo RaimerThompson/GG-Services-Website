@@ -24,6 +24,10 @@
   font-family: South;
   src: url(/fonts/South-Korea.ttf);
 }
+@font-face {
+  font-family: Comma;
+  src: url(/fonts/Brigfted.otf);
+}
 
 
 
