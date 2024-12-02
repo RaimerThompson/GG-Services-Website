@@ -7,22 +7,22 @@ var tabcontents = document.getElementsByClassName('tab__contents');
 
 
 
-images.forEach((img, index) => {
-  img.addEventListener('click', () => {
-    openModal(`/images/${index}.jpg`)
-  });
-});
+// images.forEach((img, index) => {
+//   img.addEventListener('click', () => {
+//     openModal(`/images/${index}.jpg`)
+//   });
+// });
 
 // close.addEventListener('click', () => (wrapper.style.display = 'none'));
 
-function closeImg(){
-  wrapper.style.display = 'none'
-}
+// function closeImg(){
+//   wrapper.style.display = 'none'
+// }
 
-function openModal(pic){
-  wrapper.style.display = 'flex'
-  imgWrapper.src = pic
-}
+// function openModal(pic){
+//   wrapper.style.display = 'flex'
+//   imgWrapper.src = pic
+// }
 
 
 //contact page tabs

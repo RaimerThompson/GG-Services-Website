@@ -311,13 +311,14 @@
 }
 
 .home__about-name{
-  font-family: Barleno;
+  /* font-family: Barleno; */
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
+  text-align: center;
   font-family: Camron;
   letter-spacing: .15em;
-  opacity: .6;
+  opacity: .75;
   font-weight: 100;
   width: 250px;
   }
@@ -347,11 +348,12 @@
   }
 
 .home__about-sub-title{
-  font-size: .725rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
-  letter-spacing: 3px;
+  letter-spacing: 10px;
   opacity: .75;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .home__img-container{
@@ -1361,11 +1363,12 @@
   }
 
   .home__about-sub-title{
-    font-size: .85rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     opacity: .75;
     font-weight: 100;
+    text-transform: uppercase;
   }
 
   .home__sub-title{
