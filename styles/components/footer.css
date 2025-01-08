@@ -1,11 +1,11 @@
 .footer{
   max-width: 2524px;
-  margin-left: auto;
-  margin-right: auto;
+
   background-color: rgb(240, 200, 180, .1);
   height: 140px;
   /* margin-top: 4rem;  */
   position: relative;
+  flex-direction: column;
   display: flex;
   justify-content: space-around;
   gap: 10px;
@@ -283,18 +283,6 @@
 /* sm */
 @media (min-width: 640px) {
 
-  .footer{
-    max-width: 2524px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(240, 200, 180, .1);
-    height: 160px;
-    /* margin-top: 4rem;  */
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-  }
 
   .footer__copyright{
     flex-direction: column;

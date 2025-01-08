@@ -478,6 +478,13 @@
   margin-right: auto;
   }
 
+  .newsite{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+
+  }
+
 .planning__upper{
   font-family: A;
   font-size: 2rem;
