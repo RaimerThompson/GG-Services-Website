@@ -4,14 +4,10 @@
 }
 
 @font-face{
-  font-family: A;
+  font-family: Dolce;
   src: url(/fonts/Dolce.ttf)
 }
 
-@font-face {
-  font-family: Custom;
-  src: url(/fonts/Canonatia.ttf);
-}
 @font-face {
   font-family: Balerno;
   src: url(/fonts/Balerno-Rg.ttf);
@@ -21,12 +17,20 @@
   src: url(/fonts/CammronDemo.ttf);
 }
 @font-face {
-  font-family: South;
-  src: url(/fonts/South-Korea.ttf);
-}
-@font-face {
   font-family: Comma;
   src: url(/fonts/Brigfted.otf);
+}
+@font-face {
+  font-family: Dream;
+  src: url(/fonts/FontsFree-Net-Dream-Avenue.ttf);
+}
+@font-face {
+  font-family: SeaLight;
+  src: url(/fonts/theseasons-lt.otf);
+}
+@font-face {
+  font-family: SeaRegular;
+  src: url(/fonts/theseasons-reg.otf);
 }
 
 
@@ -43,9 +47,10 @@ html {
 }
 
 body {
-  font-family: 'Questrial', sans-serif;
-  /* color:rgb(95, 45, 20); */
+  font-family:  "Cormorant Garamond", serif;
+  font-style: normal;
   color: black;
+  font-size: 18px;
 }
 
 

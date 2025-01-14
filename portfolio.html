@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Grace Gutierrez Design is a Destination event planning and design company known for creating seamless events with an artistic architectural methodology drawing inspiration from generations of story telling.">
+  <meta name="description" content="Grace Gutierrez Design is a New York based destination event planning and design company known for creating design-focused events artistically elevating spaces to your dream vision.">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <!-- <link rel="manifest" href="/site.webmanifest" /> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Libre+Baskerville:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/components/header.css">
-  <link rel="stylesheet" href="styles/components/work.css">
+  <link rel="stylesheet" href="styles/components/home.css">
   <link rel="stylesheet" href="styles/components/footer.css">
+  <link rel="stylesheet" href="styles/components/portfolio.css">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/utilities.css">
   <script src="https://kit.fontawesome.com/c339e0fb63.js" crossorigin="anonymous"></script>
@@ -22,21 +28,26 @@
 
   gtag('config', 'G-NYK9FPVRVX');
 </script>
-  <title>Grace Gutierrez Design Destination Wedding Planner Portfolio</title>
+  <title>Portfolio - Grace Gutierrez Design</title>
 </head>
 <body>
   <header class="header container">
     <nav id="nav" class="scroll__nav">
+      <ul class="header__menu-left">
+        <a href="contact.html"><button class="header__button">Book an Inquiry Call</button></a>
+      </ul>
       <ul class="header__menu-logo">
         <li>
-          <a class="header__logo scroll__logo" href="index.html">Grace Gutierrez</a>
+          <a class="header__logo scroll__logo ggd-top" href="index.html">GRACE</a>
+          <a class="header__logo scroll__logo ggd-middle" href="index.html">Design | Event | Planning</a>
+          <a class="header__logo scroll__logo ggd-bot" href="index.html">GUTIERREZ</a>
         </li>
       </ul>
       <ul id="navbar" class="header__menu">
         <li class="header__link"><a class="active" href="index.html">HOME</a></li>
-        <li class="header__link"><a href="about.html">ABOUT US</a></li>
-        <li class="header__link"><a href="services.html">SERVICES</a></li>
-        <!-- <li class="header__link"><a href="#">PORTFOLIO</a></li> -->
+        <li class="header__link"><a href="about.html">ABOUT</a></li>
+        <li class="header__link"><a href="client-experience.html">CLIENT EXPERIENCE</a></li>
+        <li class="header__link"><a href="portfolio.html">PORTFOLIO</a></li>
         <li class="header__link"><a href="contact.html">CONTACT</a></li>
         <li class="header__link"><a target=”_blank” href="https://piecesofmivida.com/">BLOG</a></li>
       </ul>
@@ -66,127 +77,183 @@
   </header>
 
 
-  <!-- <section class="work section">
+  <section class="portfolio__banner">
+      <div class="home__title">
+        <a href="index.html"><button class="home__title-button">
+        <span class="title__logo">Grace</span>
+        <h2 class="title__sub-logo">Design | Event | Planning</h2>
+        <span class="title__botlogo">Gutierrez</span>
+      </button></a>
+      </div>
+  </section>
 
+
+  <section class="portraits-gallery">
     <div class="work__gallery">
       <div class="work__column">
-        <div class="image__wrapper" id="wrapper">
   
+        <div class="work__photo">
+          <img class="work__img por" src="images/casa-conde-arch-second-floor.jpg" fetchpriority=”high” alt=" casa conde arches on the second floor">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/bride-getting-ready-in-sofitel-looking-out-the-window-in-sofitel-santa-clara.jpg" fetchpriority=”high” alt="bride getting ready in sofitel looking out the window in sofitel santa clara">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/bastion-hotel-table-wedding-reception.jpg" fetchpriority=”high” alt="bastion hotel table design with flowers and glassware for recpetion wedding">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/moody-table-hudson-valley-reception-dinner.jpg" fetchpriority=”high” alt="moody recpetion table in the hudson valley">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/aperol-spritz-in-cocktail-hour-hudson-valley.jpg" fetchpriority=”high” alt="aperal spritz during cocktail hour in the hudson valley">
         </div>
 
+
         <div class="work__photo">
-          <img class="work__img sat" src="images/112.jpeg"  alt="">
+          <img class="work__img por" src="images/brown-suit-groom-and-designer-bride-dress-couple-embracing-in-front-floral-arrangement.jpg" fetchpriority=”high” alt="brown suit groom and designer bride dress couple embracing in front floral arrangement">
         </div>
         <div class="work__photo">
-          <img class="work__img" src="images/113.jpg"  alt="">
+          <img class="work__img por" src="images/flat-lay-featuring-fan-designer-shoes-perfume-and-wedding-bands.jpg" fetchpriority=”high” alt="flatlay featuring fan designer shoes perfume and wedding bands">
         </div>
         <div class="work__photo">
-          <img class="work__img" src="images/452.jpg"  alt="">
+          <img class="work__img por" src="images/table-design-in-washington.d.c..jpg" fetchpriority=”high” alt="table design in washington with floral arrangement and assortment of chairs">
         </div>
         <div class="work__photo">
-          <img class="work__img" src="images/114.jpg"  alt="">
+          <img class="work__img land" src="images/cartagena-landscape.with-iconic-clock-tower-in-the-background-and-the-city-scape-behind-it-with-rooftops-in-the-foreground.jpg" fetchpriority=”high” alt="cartagena landscape with the iconic clock tower in the background and the city landscape with the neiboring rooftops">
         </div>
         <div class="work__photo">
-          <img class="work__img sat" src="images/121.jpeg"  alt="">
-        </div>
-        <div class="work__photo">
-          <img class="work__img" src="/images/97.jpg"  alt="">
-        </div>
-        <div class="work__photo">
-          <img class="work__img" src="images/114.jpg"  alt="">
-        </div>
-        <div class="work__photo">
-          <img class="work__img" src="images/117.jpg"  alt="">
-        </div>
-        <div class="work__photo">
-          <img class="work__img" src="images/8.jpg"  alt="">
-        </div>
-        <div class="work__photo">
-          <img class="work__img" src="images/9.jpg"  alt="">
+          <img class="work__img land" src="images/casa-conde-arch-second-floor.2.jpg" fetchpriority=”high” alt=" casa conde arch second floor">
         </div>
 
+
+        <div class="work__photo">
+          <img class="work__img por" src="images/hudson-valley-engagement-session-custom-outfits.jpg" fetchpriority=”high” alt="hudson valley engagement session custom outfits">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/hudson-valley-engagement-session-custom-outfits.2.jpg" fetchpriority=”high” alt="hudson valley engagement session custom outfits hugging">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/hudson-valley-engagement-session-custom-outfits.3.jpg" fetchpriority=”high” alt="hudson valley engagement session custom outfits closeup on rings">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/table-design-in-washington.d.c.2.jpg" fetchpriority=”high”  alt="table design in washington with floral arrangement and assortment of chairs">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/piano-and-stairwell-with-wedding-couple-with-floral-arrangements.jpg" fetchpriority=”high”  alt="piano and stairwell with wedding couple with floral arrangements">
+        </div>
+
+
+
+        <div class="work__photo">
+          <img class="work__img por" src="images/reception-table-with-fruits-and-candles-adorned-with-flowers-and-glassware-3.jpg" fetchpriority=”high”  alt="reception table with fruits and candles adorned with flowers and glassware">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/aerial-view-of-a-reception-table-with-fruits-and-candles-adorned-with-flowers-and-glassware.2.jpg" fetchpriority=”high”  alt="reception table with fruits and candles adorned with flowers and glassware">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/fruits-vase-with-flowers-and-limes-for-coctail-table-design.jpg" fetchpriority=”high”  alt="fruits cocktail hour table adorned with lines">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/bride-with-friend-after-her-ceremony.jpg" loading="lazy" decoding="async"  alt="bride with her friends laughing and enjoying after her ceremony">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/floral-arrangement-for-ceremony-walkway.jpg" loading="lazy" decoding="async"  alt="floral arrangement for ceremony walkway in washington dc">
+        </div>
+
+
+        <div class="work__photo">
+          <img class="work__img por" src="images/vintage-paper-menu-placed.jpg" loading="lazy" decoding="async"  alt="vintage paper menu placed on plate for reception table">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/picnic-in-hudson-valley-ceremony-wedding-party-hanging-out-waiting.jpg" loading="lazy" decoding="async"  alt="picnic in hudson valley ceremony wedding party hanging out waiting">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/hudson-valley-ceremony-sneaked-peak-through-trees.jpg" loading="lazy" decoding="async"  alt="hudson valley ceremony sneaked peak through trees">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/wedding-guest-in-the-hudson-valley-enjoying-reception-dinner-together.jpg" loading="lazy" decoding="async"  alt="wedding guest in the hudson valley enjoying reception dinner together">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/guest-enjoying-their-time-during-the-moody-table-hudson-valley-reception-dinner.jpg" loading="lazy" decoding="async"  alt="moody table hudson valley reception dinner with guest enjoying their time">
+        </div>
+
+
+       
+        <div class="work__photo">
+          <img class="work__img por" src="images/cartagena-wedding-bride-and-groom-leaving-church-ceremony-running.jpg" loading="lazy" decoding="async"  alt="cartagena wedding bride and groom leaving church ceremony running">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/bride-and-groom-sofitel-cartagena-wedding-editorial-style.2.jpg" loading="lazy" decoding="async"  alt="bride and groom sofitel cartagena wedding editorial style">
+        </div>
+        <div class="work__photo">
+          <img class="work__img por" src="images/bride-holding-her-wedding-heels-as-she-is-getting-ready.jpg" loading="lazy" decoding="async"  alt="bride holding her wedding heels as she is getting ready">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/reception-table-with-fruits-and-candles-adorned-with-flowers-and-glassware.4.jpg" loading="lazy" decoding="async"  alt="reception table with fruits and candles adorned with flowers and glassware">
+        </div>
+        <div class="work__photo">
+          <img class="work__img land" src="images/bastion-hotel-trees-covering-the-scenery.jpg" loading="lazy" decoding="async"  alt="bastion hotel trees covering the sky scenery">
+        </div>
         
-
-
-          <div class="work__photo">
-            <img class="work__img" src="images/1004.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/118.jpeg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/98.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/1.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/108.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="/images/120.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/119.jpeg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/402.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/8.jpg"  alt="">
-          </div>
-          <div class="work__photo">
-            <img class="work__img" src="images/9.jpg"  alt="">
-          </div>
       </div>
-
     </div>
-  </section> -->
+  </section>
+  
+  
+
 
   <section class="footer">
-
     <div class="footer__left">
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
-        <!-- <li><a href="portfolio.html">PORTFOLIO</a></li> -->
+        <li><a href="portfolio.html">PORTFOLIO</a></li> 
+        <div class="footer__back">
+          <a href="#top">BACK TO TOP</a>
+        </div> 
+  
       </ul>
     </div>
   
     <div class="footer__mid">
       <div class="footer__title">
-        <h1 class="footer__logo">GRACE GUTIERREZ</h1>
-        <h2 class="footer__sub-logo">Design | Event | Planning</h2>
-        <div class="socials__icons">
-          <a target="_blank" href="https://www.instagram.com/gracegutierrezdesign/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-          <a target="_blank" href="https://www.pinterest.com/GraceGutierrezDesign/"><i class="fa-brands fa-pinterest"></i></a>
-          <a target="_blank" a href=mailto:gracegutierrezdesign@gmail.com><i class="fa-regular fa-envelope"></i></a>
-        </div>
+        <a href="index.html"><button class="footer__logo-button">
+          <span class="footer__logo">Grace</span>
+          <h2 class="footer__sub-logo">Design | Event | Planning</h2>
+          <span class="footer__botlogo">Gutierrez</span>
+        </button></a>
+      </div>
+      <p class="footer__text">Grace Gutierrez Design is a Destination Event Planning and Design Company based out of New York, servicing New York and Cartagena, Colombia Weddings and Events</p>
+  
+      <div class="socials__icons">
+        <a target="_blank" href="https://www.instagram.com/gracegutierrezdesign/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        <a target="_blank" href="https://www.pinterest.com/GraceGutierrezDesign/"><i class="fa-brands fa-pinterest"></i></a>
+        <a target="_blank" a href=mailto:gracegutierrezdesign@gmail.com><i class="fa-regular fa-envelope"></i></a>
       </div>
     </div>
-    
+  
+  
     <div class="footer__right">
       <ul>
-        <!-- <li><a href="services.html">SERVICES</a></li> -->
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="client-experience.html">EXPERIENCE</a></li>
         <li><a target=”_blank” href="https://piecesofmivida.com/">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+
       </ul>
     </div>
-  
+    </div>
   </section>
-  
   <section class="copyright">
     <div class="footer__copyright">
-      <p> Grace Gutierrez Design &#169; 2024 | ALL RIGHTS RESERVED</p>
-      <p class="footer__credit">WEBSITE BY <span class="credit__name"><a target="_blank" href="https://raimerthompson.com/">Raimer Thompson</a></span></p>
-      <h5 class="footer__back">
-        <a href="#top">BACK TO TOP</a></h5>
+      <p> Grace Gutierrez Design &#169; 2025 | all rights reserved | website by <span class="credit__name"><a target="_blank" href="https://raimerthompson.com/">Raimer Thompson</a></span> | <a target="_blank" class="photo-credit" href="photo-credit.html">photo credit</a> | <a target="_blank" class="terms" href="terms-of-service.html">terms of service</a> | <a target="_blank" class="privacy-policy" href="privacy-policy.html">privacy policy</a></p>
     </div>
-  </section> 
-
+  </section>   
+   
   
+
+
+
   <script src="js/header.js"></script>
-  <script src="js/app.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

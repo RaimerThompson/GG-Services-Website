@@ -1,39 +1,23 @@
-let images = document.querySelectorAll('.work__img')
-let wrapper = document.getElementById('wrapper')
-let imgWrapper = document.getElementById('fullImg')
-let close = document.querySelector('span')
-var tablinks = document.getElementsByClassName('tab__links');
-var tabcontents = document.getElementsByClassName('tab__contents');
+const faqs = document.querySelectorAll('.faq__div');
 
+faqs.forEach(faq =>{
+  faq.addEventListener("click", ()=>{
+    faq.classList.toggle("faq-active")
+  })
+})
 
-
-// images.forEach((img, index) => {
-//   img.addEventListener('click', () => {
-//     openModal(`/images/${index}.jpg`)
-//   });
-// });
-
-// close.addEventListener('click', () => (wrapper.style.display = 'none'));
-
-// function closeImg(){
-//   wrapper.style.display = 'none'
-// }
-
-// function openModal(pic){
-//   wrapper.style.display = 'flex'
-//   imgWrapper.src = pic
-// }
-
-
-//contact page tabs
- 
-function opentab(tabname){
-  for (tablink of tablinks){
-    tablink.classList.remove("active__link");
+let indexvalue = 1;
+showImg(indexvalue);
+function dot(e){showImg(indexvalue = e);}
+function showImg(e){
+  let i;
+  const img = document.querySelectorAll('.phase')
+  const sliderDot = document.querySelectorAll('.phase__dots span')
+  if (e > img.length){indexvalue = 1}
+  if (e < 1){indexvalue = img.length}
+  for (i = 0; i < img.length; i++){
+    img[i].style.display = "none";
   }
-  for (tabcontent of tabcontents){
-    tabcontent.classList.remove("active__tab");
-  }
-  event.currentTarget.classList.add('active__link');
-  document.getElementById(tabname).classList.add('active__tab')
+  img[indexvalue - 1].style.display = "flex";
+
 }

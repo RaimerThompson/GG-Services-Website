@@ -1,14 +1,12 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  /* color: rgba(56, 55, 55, .9); */
-  /* color: rgb(95, 45, 20, .8); */
-  color: white;
-  /* color: black; */
+  color:black;
   font-size: 16px;
-  letter-spacing: 1.25px;
-
+  letter-spacing: 2px;
   transition: color .4s ease-in-out;
+  font-family: SeaRegular;
+  
 }
 
 .header__link a:hover{
@@ -16,7 +14,7 @@ ul li a{
 }
 
 ul li a.active{
-  color: white;
+  color: black;
 }
 
 .header__menu{
@@ -38,23 +36,50 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: Mel;
+  font-family: Dream;
+  display: none;
 }
 
-.header__logo:hover{
-  color: red;
+.header__menu-logo li{
+  display: flex;
+  flex-direction: column;
+}
+
+.header__button{
+  background-color: #dfd9b6;
+  border: none;
+  border-radius: 1.25rem;
+  padding: .75rem 1rem;
+  line-height: 16px;
+  letter-spacing: 1px;
+  position: relative;
+  top: 2px;
+  right: 1.5rem;
+  font-family: SeaRegular;
+  font-weight: 100;
+}
+
+.header__menu-left a{
+ text-decoration: none;
+ color: inherit;
 }
 
 .header__logo{
   font-size: .8rem;
   font-weight: 100;
   color: black;
-  letter-spacing: 6px;
-  font-family: Mel;
+  font-family: Dream;
   position: relative;
   top: -3px;
   left: -20px;
 }
+
+.ggd-middle{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: .4rem;
+}
+
 
 #nav{
   display: flex;
@@ -87,7 +112,7 @@ ul li a.active{
 .hamburger__btn.close{
   top: 0;
   left: 2px;
-  fill: white;
+  fill: black;
   transition: fill .4s ease-in-out;
 }
 
@@ -138,22 +163,22 @@ ul li a.active{
 #navbar.active{
   right: 0;
   transition: .5s ease-in-out;
-  background-color: rgb(129, 113, 98);
+  background-color: #efebe7;
 }
 
 @media (min-width: 346px) {
-  .header__logo{
+  /* .header__logo{
     font-size: 1.15rem;
     left: -2.5px;
-  }
+  } */
 }
 
 /* xs */
 @media (min-width: 475px) {
-  .header__logo{
+  /* .header__logo{
     font-size: 1.35rem;
     left: -2.5px;
-  }
+  } */
 }
 
 

@@ -1,44 +1,54 @@
 .footer{
-  max-width: 2524px;
-
-  /* background-color: rgb(240, 200, 180, .1); */
-  height: 140px;
-  /* margin-top: 4rem;  */
-  position: relative;
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efebe7;
+  padding: 1rem;
+  height: 22rem;
+}
+
+.footer__logo-button{
+  border: none;
 }
 
 .footer__title{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
 .footer__logo{
-  font-family: Mel;
-  letter-spacing: 4px;
-  font-weight: 100;
-  margin-bottom: 2px;
-  font-size: 24px;
+  font-family: DREAM;
+  font-size: 2.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.footer__sub-logo{
-  font-family: Mel;
-  font-size: .8rem;
-  letter-spacing: 2px;
-  font-weight: 100;
+.footer__botlogo{
+  font-family: Dream;
+  font-size: 2.25rem;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 4px;
 }
 
-.footer__sub-bot{
-  font-family: Camron;
-  font-size: .75rem;
+.footer__sub-logo{
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-size: .55rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.footer__text{
+  font-family:  "Cormorant Garamond", serif;
+  font-style: normal;
+  font-size: 18px;
+  max-width: 365px;
   font-weight: 100;
+  text-align: center;
 }
 
 .footer ul li{
@@ -50,34 +60,29 @@
 .footer ul li a{
   color: black;
   letter-spacing: .5px;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 7px;
-  opacity: .85;
 }
 
 .footer ul li a:hover{
- color: rgb(129, 113, 98);
+  opacity: .5;
 }
 
 .footer__left ul{
-  margin-top: 2rem;
-  position: relative;
-  font-family: 'Libre Baskerville', sans-serif;
-  display: none;
-  flex-direction: column;
-  gap: 10px;
+  display: none; 
 }
+
 .footer__mid{
-  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
   position: relative;
 }
-.footer__right ul{
-  margin-top: 2rem;
-  position: relative;
-  font-family: 'Libre Baskerville', sans-serif;
+
+.footer__right ul li{
   display: none;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .socials__icons{
@@ -91,7 +96,7 @@
 }
 
 .socials__icons a:hover{
- color: rgb(129, 113, 98);
+    opacity: .85;
 }
 
 .fa-pinterest{
@@ -103,23 +108,24 @@
   font-size: 6px;
 }
 
-.footer__credit a{
+.credit__name a{
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+  font-weight: 100;
 }
 
-.footer__credit a:hover{
+.credit__name a:hover{
   opacity: .6;
 }
 
 .copyright{
-  max-width: 2524px;
-  /* background-color: rgb(240, 200, 180, .1); */
+  background-color: #efebe7;
   position: relative;
 }
 
-.footer__copyright{
+
+.footer__copyright {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -128,99 +134,75 @@
   gap: .75rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   letter-spacing: 1.5px;
-  font-size: 6.25px;
-  text-transform: uppercase;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 12px;
+  width: 202px;
 }
+
+.footer__back:hover{
+  opacity: .75;
+}
+
+.footer__back a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.photo__credit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.privacy-policy,
+.terms,
+.photo-credit{
+  color: inherit;
+  opacity: .85;
+  text-decoration: none;
+}
+
+
+
 /* xs */
-@media (min-width: 325px) {
+@media (min-width: 348px) {
 
-  /* .footer__logo{
-    font-family: Mel;
-    letter-spacing: 5px;
-    font-weight: 100;
-    margin-bottom: 2px;
-    font-size: 15px;
-  }
-  
-  .footer__sub-logo{
-    font-family: Mel;
-    font-size: .5rem;
-    letter-spacing: 3px;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-  } */
-
-  .footer__logo{
-    font-family: Mel;
-    letter-spacing: 8px;
-    font-weight: 100;
-    margin-bottom: 2px;
-    font-size: 1.25rem;
-  }
-  
-  .footer__sub-logo{
-    font-family: Mel;
-    font-size: .7rem;
-    letter-spacing: 4px;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-  }
-
-  .footer__copyright{
-    font-size: 6.5px;
-    width: 95%;
-    letter-spacing: 1.75px;
-  }
+  .footer__copyright {
+    font-size: 12px;
+    width: 333px;
+}
 }
 
 /* xs */
 @media (min-width: 475px) {
-  
-  .footer__logo{
-    font-family: Mel;
-    letter-spacing: 8px;
+
+  .footer__text{
+    font-family:  "Cormorant Garamond", serif;
+    font-style: normal;
+    font-size: 18px;
+    max-width: 434px;
     font-weight: 100;
-    margin-bottom: 2px;
-    font-size: 1.35rem;
-  }
-  
-  .footer__sub-logo{
-    font-family: Mel;
-    font-size: .75rem;
-    letter-spacing: 4px;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: 4px;
-  }
-  
-  .footer__sub-bot{
-    font-family: Camron;
-    font-size: .75rem;
-    font-weight: 100;
+    text-align: center;
   }
   
   .footer ul li{
     list-style: none;
     color: black;
-   
   }
   
   .footer ul li a{
     color: black;
     letter-spacing: 1.15px;
     font-weight: 100;
-    font-size: 10px;
-    opacity: .85;
+    font-size: 14px;
   }
 
   .footer__copyright{
-    font-size: 8.5px;
-    width: 90%;
+    font-size: 11px;
+    width: inherit;
+    letter-spacing: 1px;
   }
 
   .footer__credit{
@@ -231,59 +213,107 @@
 
 /* sm */
 @media (min-width: 640px) {
-
-
-  .footer__copyright{
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    font-size: 8.5px;
-  }
-
+  
   .footer__logo{
-    font-family: Mel;
-    letter-spacing: 8px;
-    font-weight: 100;
-    margin-bottom: 2px;
-    font-size: 1.9rem;
+    font-size: 3rem;
   }
   
-  .footer__sub-logo{
-    font-family: Mel;
-    font-size: 1rem;
-    letter-spacing: 4px;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin-bottom: 4px;
+  .footer__botlogo{
+    font-size: 3rem;
   }
 
-  .footer__left ul{
-    margin-top: 2rem;
-    position: relative;
-    font-family: 'Libre Baskerville', sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .footer__mid{
-    margin-top: 3rem;
-    position: relative;
-  }
-  .footer__right ul{
-    margin-top: 2rem;
-    position: relative;
-    font-family: 'Libre Baskerville', sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  .footer__copyright{
+    font-size: 12px;
   }
 }
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #efebe7;
+    padding: 1rem;
+    gap: 6rem;
+    height: 22rem;
+  }
+
+  
+.footer__left ul{
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer__right ul li{
+  display: block;
+}
+
+
+.footer__right ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  bottom: 10px;
+}
+
+  .footer__copyright{
+    font-size: 10px;
+  }
+
+  .photo__credit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: black;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 8.5rem;
+    z-index: 2;
+    font-weight: 500;
+}
+
+
+  .footer__back{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    letter-spacing: 1.5px;
+    top: 8rem;
+    z-index: 3;
+    font-size: 8px;
+    font-weight: 400;
+    display: none;
+  }
+
+  .footer__back::after{
+    content: '^';
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: absolute;
+    bottom: .9rem;
+    right: 1.75rem;
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+  }
+}
 
 /* Lg */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+  .footer__copyright{
+    font-size: 12.5px;
+  }
+
+}
 
 /* xL */
 /* @media (min-width: 1288px) {} */
