@@ -69,7 +69,10 @@ button {
   background: none;
   cursor: pointer;
   font-family: inherit;
+  color: black;
 }
+
+
 
 :root {
  /* sizes */
