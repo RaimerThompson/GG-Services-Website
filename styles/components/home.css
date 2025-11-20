@@ -493,6 +493,7 @@
 
 .home__services-button{
   background-color: #dfd9b6;
+  color: black;
   border: none;
   border-radius: 1.25rem;
   padding: .75rem 1.5rem;
@@ -531,6 +532,7 @@
 
 .home__portfolio-button{
   background-color: #dfd9b6;
+  color: black;
   border: none;
   border-radius: 1.25rem;
   padding: .75rem 1.5rem;
@@ -686,6 +688,7 @@
  
  .home__about-button{
    background-color: #dfd9b6;
+   color: black;
    border: none;
    border-radius: 1.25rem;
    padding: .75rem 1.5rem;
@@ -744,6 +747,7 @@
 
  .home__planning-button{
    background-color: #dfd9b6;
+   color: black;
    border: none;
    border-radius: 1.25rem;
    padding: .75rem 1.5rem;
