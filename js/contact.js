@@ -11,7 +11,7 @@ const sendEmail = (e) =>{
   //show sent message 
     contactMessage.textContent = 'Thanks for Submitting!'
 
-  //remove message after 2 seconds
+  //remove message after 4 seconds
   setTimeout(() => {
     contactMessage.textContent = ''
   }, 4000);
