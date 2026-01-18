@@ -181,6 +181,7 @@
   /* font-size: 1rem; */
 }
 
+
 /* .contact__input:hover{
   border-bottom: 1px solid rgb(210, 200, 200);
 } */
@@ -196,6 +197,22 @@
 
 .contact__input:-webkit-autofill{
   transition: background-color 6000s, color 6000s;
+}
+
+.contact__select{
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-color: transparent;
+  border-bottom: 1.25px solid rgb(210, 150, 150, .4);
+  color: rgb(0, 0, 0);
+  padding: 0rem .5rem;
+  border: 1px solid rgba(85, 85, 85, 0.5);
+  border-radius: 4px;
+  transition: border .2s, background-color .2s;
+  font-family:  "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .contact__label{
