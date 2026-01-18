@@ -14,7 +14,7 @@ const sendEmail = (e) =>{
   //remove message after 2 seconds
   setTimeout(() => {
     contactMessage.textContent = ''
-  }, 2000);
+  }, 4000);
 
   //clear input fields
   contactForm.reset()
