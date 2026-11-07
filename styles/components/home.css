@@ -149,11 +149,11 @@
   height: 100%;
   object-fit: cover;
   overflow: hidden;
-  filter: contrast(95%);
+  /* filter: contrast(95%); */
 }
 
 .sl2{
-  object-position: 60% 65%;
+  object-position: 60% 48%;
 }
 
 .sl3{
